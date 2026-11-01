@@ -1,70 +1,38 @@
-# Ghi chú lệnh PowerShell để chạy agent trên máy cũ
+# Ghi chú lệnh PowerShell để chạy agent trên máy 1
 
 Đây là bản của agent Marketing AI TikTok, đã cập nhật theo cấu trúc 3 nhiệm vụ.
-Các lệnh viết cho Windows PowerShell 5.1. Sửa `C:\BaitapDevC\agents\agents` thành đường dẫn thật trên máy của bạn.
+Các lệnh viết cho Windows PowerShell 5.1. Sửa `C:\BaitapDevC\agents\tivo-agents` thành đường dẫn thật trên máy của bạn.
 
 ## Bước 1: Làm trên máy này trước khi rời đi
 
-Thay đổi của agent chưa được commit. Hai lệnh dưới đây đưa quy trình mới lên GitHub.
+Toàn bộ code và `data` của hai agent nằm chung trong repo `tivo-agents`. Nếu `git status` còn thay đổi, chạy các lệnh này để đưa lên GitHub:
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-van-hanh-shoppe"
+Set-Location "C:\BaitapDevC\agents\tivo-agents"
+git status
 git add -A
-git commit -m "Cau truc lai agent Shopee theo 4 nhiem vu"
-git push
-
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-van-hanh-marketing-ai"
-git add -A
-git commit -m "Cau truc lai agent TikTok theo 3 nhiem vu"
+git commit -m "Cap nhat truoc khi chuyen sang may 1"
 git push
 ```
 
-Thư mục `data` bị `.gitignore` bỏ qua nên không lên GitHub. Hãy nén để mang đi bằng USB hoặc Drive riêng.
+Repo chứa cả `gia-von.xlsx`, `Tivo-dashboard\data` và `Tivo-dashboard\.env.local` có khóa bí mật, nên phải luôn để riêng tư.
+
+## Bước 2: Lấy về máy 1
+
+Nếu máy 1 chưa có thư mục `tivo-agents`:
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents"
-Compress-Archive -Path "Tivo-van-hanh-shoppe\data"       -DestinationPath "data-shopee.zip"
-Compress-Archive -Path "Tivo-van-hanh-marketing-ai\data" -DestinationPath "data-marketing.zip"
+New-Item -ItemType Directory -Force "C:\BaitapDevC\agents"
+Set-Location "C:\BaitapDevC\agents"
+git clone https://github.com/trinhkiet06/tivo-agents.git
 ```
 
-Dashboard không có git nên cũng phải nén. Lệnh này bỏ qua thư mục nặng và file `.env.local`.
+Nếu máy 1 đã có thư mục này:
 
 ```powershell
-Get-ChildItem "Tivo-dashboard" -Force |
-  Where-Object { $_.Name -notin @("node_modules", ".next", ".env.local") } |
-  Compress-Archive -DestinationPath "tivo-dashboard.zip"
-```
-
-File `.env.local` chứa khóa bí mật. Hãy chép riêng qua kênh an toàn và đừng đưa lên GitHub.
-
-## Bước 2: Lấy về máy cũ
-
-Nếu máy cũ chưa có code:
-
-```powershell
-New-Item -ItemType Directory -Force "C:\BaitapDevC\agents\agents"
-Set-Location "C:\BaitapDevC\agents\agents"
-git clone https://github.com/trinhkiet06/Tivosmart-agent-operating.git Tivo-van-hanh-shoppe
-git clone https://github.com/trinhkiet06/Tivosmart-agent-marketing.git Tivo-van-hanh-marketing-ai
-```
-
-Nếu máy cũ đã có code, chạy lệnh này trong từng thư mục agent:
-
-```powershell
+Set-Location "C:\BaitapDevC\agents\tivo-agents"
 git pull
 ```
-
-Chép các file zip vào `C:\BaitapDevC\agents\agents`, rồi giải nén:
-
-```powershell
-Set-Location "C:\BaitapDevC\agents\agents"
-Expand-Archive "data-shopee.zip"    -DestinationPath "Tivo-van-hanh-shoppe" -Force
-Expand-Archive "data-marketing.zip" -DestinationPath "Tivo-van-hanh-marketing-ai" -Force
-New-Item -ItemType Directory -Force "Tivo-van-hanh-marketing-ai\data\tiktok"
-Expand-Archive "tivo-dashboard.zip" -DestinationPath "Tivo-dashboard" -Force
-```
-
-`-Force` sẽ ghi đè file trùng tên trong thư mục đích. Nếu `data` trên máy cũ mới hơn, hãy sao lưu trước khi giải nén.
 
 ## Bước 3: Kiểm tra và cài công cụ
 
@@ -85,19 +53,19 @@ Cài phần còn thiếu:
 | Git, Node, Python | Cài từ trang chủ của từng công cụ |
 
 Trên máy này, Python mặc định chưa có `openpyxl`. Bản Anaconda tại `C:\Annaconda\python.exe` thì có.
-Nếu máy cũ cũng vậy, hãy chạy lệnh cài thư viện ở bảng trên hoặc dùng Python có sẵn thư viện.
+Nếu máy 1 cũng vậy, hãy chạy lệnh cài thư viện ở bảng trên hoặc dùng Python có sẵn thư viện.
 
 ## Bước 4: Chạy agent
 
 Mỗi agent chạy trong thư mục của nó. Cách khác là mở đúng thư mục đó trong VS Code và dùng tiện ích Claude Code.
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-van-hanh-shoppe"
+Set-Location "C:\BaitapDevC\agents\tivo-agents\Tivo-van-hanh-shoppe"
 claude
 ```
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-van-hanh-marketing-ai"
+Set-Location "C:\BaitapDevC\agents\tivo-agents\Tivo-van-hanh-marketing-ai"
 claude
 ```
 
@@ -118,19 +86,20 @@ claude -p "Dữ liệu hiện có làm được những việc nào, thiếu fil
 
 ## Bước 5: Chép file giữa hai agent
 
-Hai agent không tự đọc thư mục của nhau. Khi cập nhật tồn kho, chạy lệnh này:
+Hai agent không tự đọc thư mục của nhau. Khi cập nhật tồn kho hoặc bảng giá, chạy các lệnh này:
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents"
+Set-Location "C:\BaitapDevC\agents\tivo-agents"
 Copy-Item "Tivo-van-hanh-shoppe\data\ton-kho.xlsx" "Tivo-van-hanh-marketing-ai\data\ton-kho.xlsx" -Force
+Copy-Item "Tivo-van-hanh-shoppe\data\san-pham.xlsx" "Tivo-van-hanh-marketing-ai\data\san-pham.xlsx" -Force
 ```
 
 ## Bước 6: Chạy dashboard
 
-Tạo lại `Tivo-dashboard\.env.local` trước, rồi chạy các lệnh dưới. `npm run load` ghi dữ liệu vào Supabase mà dashboard đang dùng.
+File `.env.local` và `data` đã có sẵn sau khi clone, nên chỉ cần chạy các lệnh dưới. `npm run load` ghi dữ liệu vào Supabase mà dashboard đang dùng.
 
 ```powershell
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-dashboard"
+Set-Location "C:\BaitapDevC\agents\tivo-agents\Tivo-dashboard"
 npm install
 npm run load
 npm run dev
@@ -144,20 +113,10 @@ npm run dev
 | Tiếng Việt hiện sai trong cửa sổ lệnh | `chcp 65001` rồi `$env:PYTHONUTF8 = "1"` |
 | Báo không tìm thấy `claude` ngay sau khi cài | Đóng và mở lại cửa sổ PowerShell |
 | Claude báo model cần usage credits | Đổi model: `claude --model claude-opus-5-5`, hoặc gõ `/model` trong phiên |
-| `git push` hỏi đăng nhập | Đăng nhập tài khoản GitHub sở hữu hai repo khi được hỏi |
-
-## Tên file dữ liệu
-
-File danh mục của agent TikTok đã đổi từ `THÔNG TIN SẢN PHẨM.xlsx` thành `data/san-pham.xlsx`. Nếu máy kia còn tên cũ, hãy đổi tên trong thư mục `data` của agent TikTok:
-
-```powershell
-Set-Location "C:\BaitapDevC\agents\agents\Tivo-van-hanh-marketing-ai\data"
-Get-ChildItem -Filter "TH*.xlsx" | Rename-Item -NewName "san-pham.xlsx"
-```
+| `git push` hỏi đăng nhập | Đăng nhập tài khoản GitHub sở hữu repo khi được hỏi |
 
 ## Tình trạng kiểm tra
 
-Đã chạy thử trên máy này: nén và giải nén vào thư mục tạm, các lệnh kiểm tra ở Bước 3, `Copy-Item` vào thư mục tạm.
+Đã chạy trên máy 2: `git commit`, `git push`, các lệnh kiểm tra ở Bước 3.
 Agent TikTok theo 3 nhiệm vụ chưa được chạy thử.
-Chưa chạy thử: `git commit`, `git push`, `git clone`, các lệnh cài đặt, `npm run load`, `npm run dev`.
-Lần này không có gì được cài thêm hay đổi cấu hình trên máy này.
+Chưa chạy thử: `git clone` trên máy 1, các lệnh cài đặt, `npm run load`, `npm run dev`.

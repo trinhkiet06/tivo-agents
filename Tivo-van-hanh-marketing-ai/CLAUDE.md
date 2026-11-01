@@ -26,7 +26,6 @@ Trước khi làm nhiệm vụ nào, đọc file quy trình của nhiệm vụ �
 | `anh-san-pham/<MÃ SP>/` | Ảnh sản phẩm thật dùng làm ảnh tham chiếu cho video AI | Có thư mục, chưa có ảnh |
 | `anh-san-pham.xlsx` | Thư mục ảnh, link hình ảnh trong danh mục, ảnh đã đủ hay chưa | Có link, chưa đánh dấu |
 | `cong-cu-video.xlsx` | Tên công cụ video AI, thời lượng tối đa mỗi cảnh, tỷ lệ khung hình, giới hạn khác | Có tỷ lệ 9:16, còn lại trống |
-| `luu-tru/` | Tài liệu cũ của Shopee | Không dùng |
 
 Đọc hết file trong `tiktok/` trước khi lập kế hoạch hoặc viết content. Chưa có dòng số liệu nào thì nói rõ, và ghi phần nào là ước đoán vì thiếu dữ liệu.
 

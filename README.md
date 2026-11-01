@@ -6,15 +6,10 @@
 | `Tivo-van-hanh-marketing-ai/` | Agent Marketing AI TikTok, 3 nhiệm vụ |
 | `Tivo-dashboard/` | Dashboard Next.js |
 
-## Không có trong repo
+## Có trong repo
 
-Các mục sau không đưa lên GitHub, nên phải chép riêng sang máy khác:
-
-- File `Tivo-van-hanh-shoppe/data/gia-von.xlsx`, chứa giá vốn.
-- Thư mục `Tivo-dashboard/data/`.
-- File `Tivo-dashboard/.env.local`, chứa khóa bí mật.
-
-Thư mục `data/` của hai agent đã có trong repo. Repo này phải luôn để riêng tư.
+Repo chứa cả `data/`, `gia-von.xlsx` và `Tivo-dashboard/.env.local` có khóa bí mật.
+Repo này phải luôn để riêng tư. Nếu mở công khai hoặc cho thêm người vào, phải đổi khóa Supabase và mật khẩu dashboard.
 
 ## Lấy về máy khác
 
@@ -25,7 +20,7 @@ Set-Location "C:\BaitapDevC\agents"
 git clone https://github.com/<tài-khoản>/tivo-agents.git
 ```
 
-Sau đó chép các file ở trên vào đúng chỗ và chạy agent:
+Sau đó chạy agent:
 
 ```powershell
 python -m pip install openpyxl pandas
@@ -33,4 +28,4 @@ Set-Location "C:\BaitapDevC\agents\tivo-agents\Tivo-van-hanh-shoppe"
 claude
 ```
 
-Các lệnh khác nằm trong `LENH-POWERSHELL.md` của từng agent. Phần clone và commit trong đó viết cho hai repo cũ, nên hãy dùng lệnh ở đây thay thế.
+Các lệnh khác nằm trong `LENH-POWERSHELL.md` của từng agent.

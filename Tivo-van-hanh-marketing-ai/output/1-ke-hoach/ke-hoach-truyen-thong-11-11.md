@@ -30,7 +30,6 @@
 | `lich-sale-va-ngan-sach.xlsx` | Lịch sale, khung giờ, chương trình, ngân sách, mục tiêu | Lấy ngân sách và mục tiêu; đối chiếu ngày |
 | `san-pham.xlsx` | 10 sản phẩm: giá, voucher, tính năng, link | Giá và nội dung |
 | `ton-kho.xlsx` | Tồn kho và ngưỡng cảnh báo của 10 sản phẩm | Chọn sản phẩm |
-| `luu-tru/bao-cao-tuan-shopee-2026-44.md` | Báo cáo doanh số tuần 24 – 30/10, không ghi kênh bán | **Không dùng**, vì từ phòng Vận hành chỉ lấy tồn kho |
 | `tiktok/` | Trống | Không có dữ liệu |
 
 `output/luu-tru/ke-hoach-shopee-11-11.md` là kế hoạch cho Shopee nên không được dùng lại. Số bán Shopee chỉ được dùng để tính tồn kho chung, không dùng để suy ra kết quả TikTok.

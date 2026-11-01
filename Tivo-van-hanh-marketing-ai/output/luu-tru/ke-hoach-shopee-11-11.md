@@ -241,6 +241,6 @@ Gọi agent Shopee theo mã để làm từng việc. Việc có ghi "cần file
 
 - `data/lich-sale-va-ngan-sach.xlsx`: ngày sale, mục tiêu, ngân sách
 - `data/THÔNG TIN SẢN PHẨM.xlsx`: giá, voucher, tính năng
-- `data/luu-tru/bao-cao-tuan-shopee-2026-44.md`: bán chạy, kỳ 24/10 – 30/10/2026
+- `Tivo-van-hanh-shoppe/output/4-bao-cao/luu-tru-tuan-2026-44/theo-doi-doanh-so.md`: bán chạy, kỳ 24/10 – 30/10/2026
 - `data/ton-kho.xlsx`: tồn kho và ngưỡng của 10 sản phẩm
 - Đơn hàng Shopee 03/10 – 30/10/2026 (`don-hang-thang.xlsx` của agent Shopee): số bán ngày 10/10 và tốc độ bán
