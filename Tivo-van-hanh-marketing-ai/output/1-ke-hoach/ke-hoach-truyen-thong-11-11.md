@@ -1,13 +1,13 @@
 # Kế hoạch TikTok Shop 11.11: Tivo Smart
 
-*Lập ngày 01/11/2026 (Chủ Nhật), cập nhật cùng ngày theo tồn kho chung. Còn 2 ngày đến khi đợt sale bắt đầu, 10 ngày đến ngày đỉnh.*
+*Lập ngày 01/11/2026 (Chủ Nhật). Cập nhật 02/11/2026 theo bảng giá mới của chủ shop: giá camp là giá khách trả sau voucher. Còn 1 ngày đến khi đợt sale bắt đầu, 9 ngày đến ngày đỉnh.*
 
 ## Cảnh báo cần xử lý ngay
 
 1. **Hạn đăng ký có thể đã qua hoặc rất gấp.** Chưa tìm thấy hạn chính thức. Theo mốc "trước 7 – 10 ngày" trong file nội bộ, hạn rơi vào 01 – 04/11 nếu tính từ ngày 11/11, nhưng đã qua (24 – 27/10) nếu tính từ ngày bắt đầu 03/11. **Chủ shop cần kiểm tra Seller Center ngay hôm nay.**
-2. **File nội bộ lệch ngày với TikTok.** File ghi 07 – 12/11, lịch chính thức ghi **03 – 15/11**. Kế hoạch dùng lịch chính thức; file `data` được giữ nguyên.
-3. **Chỉ 3 sản phẩm có link TikTok trong danh mục:** B-26, B-02PRO, A-028. Bán hết cả 3 cũng chỉ được 23.799.000đ, chưa đủ mục tiêu 30.000.000đ. Hai trong ba sản phẩm này lại đang dưới ngưỡng tồn kho. Phải xác nhận các sản phẩm khác có đang bán trên TikTok không (mục 9).
-4. **Tồn kho chung không đủ cho B-26 và MC870.** Sau khi trừ hàng Shopee dự kiến bán đến 10/11, B-26 không còn dư trên ngưỡng và MC870 chỉ dư 2. Nếu không nhập thêm, kịch bản ở mục 1 chỉ đạt 17.598.000đ.
+2. **Bảng giá mới chưa xác nhận cho TikTok.** Chủ shop gửi một bảng giá, không ghi riêng sàn. Kế hoạch tạm dùng bảng này cho TikTok. File nội bộ đã đổi sang lịch chính thức **03 – 15/11**.
+3. **Chỉ 3 sản phẩm có link TikTok trong danh mục:** B-26, B-02PRO, A-028. Bán hết cả 3 cũng chỉ được 25.019.000đ, chưa đủ mục tiêu 30.000.000đ. Hai trong ba sản phẩm này lại đang dưới ngưỡng tồn kho. Phải xác nhận các sản phẩm khác có đang bán trên TikTok không (mục 9).
+4. **Tồn kho chung không đủ cho B-26 và MC870.** Sau khi trừ hàng Shopee dự kiến bán đến 10/11, B-26 không còn dư trên ngưỡng và MC870 chỉ dư 2. Nếu không nhập thêm, kịch bản ở mục 1 chỉ đạt 18.438.000đ.
 5. **Thư mục `data/tiktok/` đang trống.** Không có dữ liệu bán hàng, quảng cáo, video hay livestream, nên việc chọn sản phẩm và nội dung đều là **ước đoán**, chưa được chứng minh bằng hiệu quả thực tế.
 
 ## 0. Thông tin chương trình sale
@@ -52,11 +52,11 @@
 | Quảng cáo ngày 11/11 | 500.000đ | Theo file |
 | Quảng cáo khởi động 08 – 10/11 (200.000đ/ngày) | 600.000đ | Đề xuất |
 | Quảng cáo 12 – 13/11 (150.000đ/ngày) | 300.000đ | Đề xuất |
-| Dự phòng voucher (72 sản phẩm x 20.000đ) | 1.440.000đ | Giả định voucher tính vào ngân sách marketing |
+| Chưa phân bổ | 1.440.000đ | Trước đây để cho voucher, chờ chủ shop quyết định |
 | Đạo cụ quay và dự phòng | 160.000đ | Phần còn lại |
 | **Tổng** | **3.000.000đ** | |
 
-Bảng chưa gồm phí sàn và hoa hồng Affiliate, vì dữ liệu không có các số này.
+Bảng chưa gồm voucher, phí sàn và hoa hồng Affiliate. Nếu đạt kịch bản bên dưới, voucher ngày sale là 7.460.000đ, vượt ngân sách 3.000.000đ. Vì vậy không thể tính voucher vào ngân sách marketing như giả định cũ. Chủ shop cần chốt bên chịu khoản này.
 
 ### Kịch bản số lượng để đạt mục tiêu ngày 11/11
 
@@ -64,14 +64,14 @@ Bảng chưa gồm phí sàn và hoa hồng Affiliate, vì dữ liệu không c�
 
 | Sản phẩm | Giá sau voucher | Số lượng | Doanh số | Tồn sau đó / Ngưỡng |
 |---|---:|---:|---:|---:|
-| MC1200 | 479.000đ | 24 | 11.496.000đ | 36 / 15 |
-| MC870 | 449.000đ | 16 | 7.184.000đ | 19 / 15 |
-| B-26 | 399.000đ | 14 | 5.586.000đ | 24 / 20 |
-| MC500 | 339.000đ | 10 | 3.390.000đ | 42 / 20 |
-| A-014 | 339.000đ | 8 | 2.712.000đ | 38 / 15 |
-| **Tổng** | | **72** | **30.368.000đ** | |
+| MC1200 | 499.000đ | 24 | 11.976.000đ | 36 / 15 |
+| MC870 | 469.000đ | 16 | 7.504.000đ | 19 / 15 |
+| B-26 | 419.000đ | 14 | 5.866.000đ | 24 / 20 |
+| MC500 | 359.000đ | 10 | 3.590.000đ | 42 / 20 |
+| A-014 | 359.000đ | 8 | 2.872.000đ | 38 / 15 |
+| **Tổng** | | **72** | **31.808.000đ** | |
 
-Giả định: mọi đơn đều dùng voucher, và voucher dùng được cùng giá camp. Cột tồn sau đó chưa trừ hàng bán trước sale, nên phải đọc cùng bảng dưới đây.
+Giả định: mọi đơn đều dùng voucher ngày sale, nên khách trả đúng giá camp. Cột tồn sau đó chưa trừ hàng bán trước sale, nên phải đọc cùng bảng dưới đây.
 
 ### Tồn kho chung sau khi trừ Shopee
 
@@ -87,7 +87,7 @@ Giả định: mọi đơn đều dùng voucher, và voucher dùng được cùn
 
 Giả định: Shopee bán trước sale theo tốc độ tuần 24/10 – 30/10, tồn kho là số cuối ngày 30/10. Chưa trừ hàng TikTok bán từ 03/11 vì chưa có dữ liệu.
 
-- **Không nhập thêm:** chỉ bán chắc được MC1200 24, MC500 10 và A-014 8, đạt 17.598.000đ. Thiếu 12.402.000đ so với mục tiêu.
+- **Không nhập thêm:** chỉ bán chắc được MC1200 24, MC500 10 và A-014 8, đạt 18.438.000đ. Thiếu 11.562.000đ so với mục tiêu.
 - **Muốn đủ bảng kịch bản:** cần thêm 14 B-26 và 16 MC870, vì 2 MC870 còn dư đang xếp cho Shopee. Con số này chưa tính phần Shopee muốn bán thêm nếu nhập hàng.
 - **Phân bổ:** kế hoạch Shopee đang để lại đúng 24 MC1200, 10 MC500 và 8 A-014 cho TikTok. Chủ shop cần chốt số này.
 
@@ -95,15 +95,15 @@ Giả định: Shopee bán trước sale theo tốc độ tuần 24/10 – 30/10
 
 **Căn cứ chọn (ước đoán):** còn nhiều hàng so với ngưỡng, có giá camp và voucher, tính năng dễ thể hiện bằng video. Chưa có dữ liệu TikTok để xác nhận lựa chọn này.
 
-| Vai trò | Sản phẩm | Giá daily | Giá camp | Voucher | Sau voucher | Giảm so với daily (camp / sau voucher) | Tồn / Ngưỡng | Link TikTok |
-|---|---|---:|---:|---:|---:|---:|---:|---|
-| Chủ lực | Bàn chải điện Magic B-26 | 459.000đ | **419.000đ** | **20.000đ** | 399.000đ | 8,7% / 13,1% | 38 / 20 | Có |
-| Chủ lực | Bình giữ nhiệt MC1200 | 559.000đ | **499.000đ** | **20.000đ** | 479.000đ | 10,7% / 14,3% | 60 / 15 | **Chưa có** |
-| Chủ lực | Bình giữ nhiệt MC870 | 529.000đ | **469.000đ** | **20.000đ** | 449.000đ | 11,3% / 15,1% | 35 / 15 | **Chưa có** |
-| Phụ | Bình giữ nhiệt MC500 | 409.000đ | 359.000đ | 20.000đ | 339.000đ | 12,2% / 17,1% | 52 / 20 | **Chưa có** |
-| Phụ | Quạt sạc cầm tay A-014 | 409.000đ | 359.000đ | 20.000đ | 339.000đ | 12,2% / 17,1% | 46 / 15 | **Chưa có** |
+| Vai trò | Sản phẩm | Giá daily | Voucher | Giá camp (sau voucher) | Giảm so với daily | Tồn / Ngưỡng | Link TikTok |
+|---|---|---:|---:|---:|---:|---:|---|
+| Chủ lực | Bàn chải điện Magic B-26 | 509.000đ | **90.000đ** | **419.000đ** | 17,7% | 38 / 20 | Có |
+| Chủ lực | Bình giữ nhiệt MC1200 | 609.000đ | **110.000đ** | **499.000đ** | 18,1% | 60 / 15 | **Chưa có** |
+| Chủ lực | Bình giữ nhiệt MC870 | 579.000đ | **110.000đ** | **469.000đ** | 19,0% | 35 / 15 | **Chưa có** |
+| Phụ | Bình giữ nhiệt MC500 | 459.000đ | 100.000đ | 359.000đ | 21,8% | 52 / 20 | **Chưa có** |
+| Phụ | Quạt sạc cầm tay A-014 | 459.000đ | 100.000đ | 359.000đ | 21,8% | 46 / 15 | **Chưa có** |
 
-**Kiểm tra điều kiện chiến dịch: chưa kết luận được**, vì chưa có mức giảm tối thiểu. Khi có số trong Seller Center, cần xem B-26 trước, vì mức giảm camp của B-26 thấp nhất trong nhóm. Cũng cần xem TikTok tính mức giảm từ giá nào, vì giá niêm yết và giá daily chênh nhau nhiều. Nếu giá không đạt, chủ shop quyết định; kế hoạch không tự đổi giá.
+**Kiểm tra điều kiện chiến dịch: chưa kết luận được**, vì chưa có mức giảm tối thiểu. Khi có số trong Seller Center, cần xem B-26 trước, vì mức giảm của B-26 thấp nhất trong nhóm. Cũng cần xem TikTok tính mức giảm từ giá nào, vì giá niêm yết và giá daily chênh nhau nhiều. Nếu giá không đạt, chủ shop quyết định; kế hoạch không tự đổi giá.
 
 **Điều kiện của B-26 và MC870:** hai sản phẩm này chỉ giữ vai trò chủ lực nếu có thêm hàng. Nếu hàng B-26 không về trước 08/11, xem hướng xử lý ở mục 5.
 
@@ -116,7 +116,7 @@ Giả định: Shopee bán trước sale theo tốc độ tuần 24/10 – 30/10
 | Tăm nước B-02PRO | 14 / 20 | Dưới ngưỡng |
 | Quạt sạc để bàn A-028 | 9 / 15 | Dưới ngưỡng |
 | Bình giữ nhiệt MC650 | 11 / 15 | Dưới ngưỡng |
-| Bình giữ nhiệt MC570 | 41 / 15 | Đủ hàng nhưng không có voucher, mức giảm camp thấp nhất (6,5%) |
+| Bình giữ nhiệt MC570 | 41 / 15 | Chưa có link TikTok. Lý do cũ không còn đúng: nay có voucher 70.000đ, giảm 19,5%, nên chủ shop có thể đưa lại vào nhóm phụ |
 | Bình giữ nhiệt MPI480 | 28 / 10 | Đủ hàng nhưng tên "480" khác dung tích 500ml trong danh mục; cần làm rõ trước khi làm nội dung |
 
 Ba sản phẩm dưới ngưỡng không làm video, không chạy quảng cáo và không đưa vào LIVE. Hiệu quả kém không được xét đến vì không có dữ liệu.
@@ -164,10 +164,10 @@ Mọi khung giờ đều là **Dự kiến**, cần đối chiếu với Seller 
 
 | Giờ | Sản phẩm | Nội dung | Ưu đãi |
 |---|---|---|---|
-| 20:00 – 20:30 | B-26 | Demo 5 chế độ, Smartimer | 419.000đ, voucher 20.000đ |
-| 20:30 – 21:00 | MC1200 | Đổ nước, so kích thước | 499.000đ, voucher 20.000đ |
-| 21:00 – 21:30 | MC870 | Giới thiệu 3 màu, so với MC1200 | 469.000đ, voucher 20.000đ |
-| 21:30 – 21:45 | MC500, A-014 | Giới thiệu nhanh | 359.000đ, voucher 20.000đ |
+| 20:00 – 20:30 | B-26 | Demo 5 chế độ, Smartimer | 509.000đ, voucher 90.000đ còn 419.000đ |
+| 20:30 – 21:00 | MC1200 | Đổ nước, so kích thước | 609.000đ, voucher 110.000đ còn 499.000đ |
+| 21:00 – 21:30 | MC870 | Giới thiệu 3 màu, so với MC1200 | 579.000đ, voucher 110.000đ còn 469.000đ |
+| 21:30 – 21:45 | MC500, A-014 | Giới thiệu nhanh | 459.000đ, voucher 100.000đ còn 359.000đ |
 | 21:45 – 22:00 | Sản phẩm còn hàng | Trả lời câu hỏi, chốt đơn | Theo sản phẩm |
 
 **Dừng đẩy sản phẩm** khi tồn kho chạm ngưỡng cảnh báo: B-26 còn 20, MC500 còn 20, MC1200, MC870 và A-014 còn 15.
@@ -184,7 +184,7 @@ Giờ đăng 09:00 và 18:00 lấy theo sheet "Khung giờ sale" của file nộ
 |---|---|---|---|
 | CN 01/11 | Chuẩn bị | Không | Kiểm tra hạn đăng ký; chủ shop chốt mục 9 |
 | T2 02/11 | Chuẩn bị | Không | Đăng ký chiến dịch; quay V1 – V8 |
-| T3 03/11 | Chuẩn bị, sale bắt đầu | 18:00 V1 | Cài giá camp và voucher, đặt ngày áp dụng |
+| T3 03/11 | Chuẩn bị, sale bắt đầu | 18:00 V1 | Cài voucher ngày sale, đặt ngày áp dụng, giữ giá trên sàn là giá daily |
 | T4 04/11 | Khởi động | 18:00 V4 | Dựng video |
 | T5 05/11 | Khởi động | 18:00 V2 | Dự webinar kịch bản LIVE |
 | T6 06/11 | Khởi động | 18:00 V5 | Soạn kịch bản LIVE |
@@ -203,18 +203,18 @@ Giờ đăng 09:00 và 18:00 lấy theo sheet "Khung giờ sale" của file nộ
 
 **Hashtag:** chưa tìm thấy hashtag chiến dịch 2026. `#TikTokShop1111` là hashtag của tài khoản TikTok Shop ở các năm trước, cần kiểm tra lại trước khi dùng.
 
-**Điều kiện dùng caption có giá:** chủ shop đã xác nhận giá trên TikTok, voucher dùng được cùng giá camp và thời điểm áp dụng.
+**Điều kiện dùng caption có giá:** chủ shop đã xác nhận giá trên TikTok, mức voucher và thời điểm áp dụng.
 
 **B-26**
-> Một cây bàn chải, 5 chế độ: Clean, Whitening, Sensitive, Gumcare, Polish. Smartimer 2 phút, nhắc chuyển vùng sau mỗi 30 giây. Riêng ngày 11/11: giá 419.000đ, nhập voucher 20.000đ còn 399.000đ. Bấm giỏ hàng để đặt nhé!
+> Một cây bàn chải, 5 chế độ: Clean, Whitening, Sensitive, Gumcare, Polish. Smartimer 2 phút, nhắc chuyển vùng sau mỗi 30 giây. Riêng ngày 11/11: nhập voucher 90.000đ, giá từ 509.000đ còn 419.000đ. Bấm giỏ hàng để đặt nhé!
 > #BanChaiDienMagic #MagicB26 #TikTokShop1111
 
 **MC1200**
-> Bình 1200ml cho ai cần dung tích lớn. Vỏ ngoài inox 304, bên trong inox 316, có 3 màu Xám, Hồng, Xanh. Riêng ngày 11/11: giá 499.000đ, nhập voucher 20.000đ còn 479.000đ.
+> Bình 1200ml cho ai cần dung tích lớn. Vỏ ngoài inox 304, bên trong inox 316, có 3 màu Xám, Hồng, Xanh. Riêng ngày 11/11: nhập voucher 110.000đ, giá từ 609.000đ còn 499.000đ.
 > #BinhGiuNhietMagic #MC1200 #TikTokShop1111
 
 **MC870**
-> 870ml, 3 màu Vàng, Hồng, Xám: bạn chọn màu nào? Vỏ ngoài inox 304, bên trong inox 316. Riêng ngày 11/11: giá 469.000đ, nhập voucher 20.000đ còn 449.000đ.
+> 870ml, 3 màu Vàng, Hồng, Xám: bạn chọn màu nào? Vỏ ngoài inox 304, bên trong inox 316. Riêng ngày 11/11: nhập voucher 110.000đ, giá từ 579.000đ còn 469.000đ.
 > #BinhGiuNhietMagic #MC870 #TikTokShop1111
 
 ## 8. Checklist theo ngày
@@ -230,7 +230,7 @@ Giờ đăng 09:00 và 18:00 lấy theo sheet "Khung giờ sale" của file nộ
 - [ ] **Marketing:** lấy ảnh và mẫu thật; quay V1 – V8
 
 **T3 03/11: đợt sale bắt đầu**
-- [ ] **Chủ shop:** cài giá camp và voucher theo đúng ngày áp dụng
+- [ ] **Chủ shop:** cài voucher ngày sale theo đúng ngày áp dụng, giữ giá trên sàn là giá daily để khách không được giảm hai lần
 - [ ] **Marketing:** đăng V1; dùng hashtag chiến dịch chính thức nếu Seller Center đã công bố
 
 **T4 04/11 – T6 06/11**
@@ -278,8 +278,8 @@ Giờ đăng 09:00 và 18:00 lấy theo sheet "Khung giờ sale" của file nộ
 ## 9. Chủ shop cần chốt hôm nay
 
 1. **Đăng ký chiến dịch:** còn hạn không, và điều kiện là gì? Nếu đã hết hạn, kế hoạch vẫn chạy được bằng giá và voucher của shop, nhưng cần xác nhận lại mục tiêu.
-2. **Sản phẩm trên TikTok:** MC1200, MC870, MC500, A-014 đã có trên TikTok Shop chưa? Danh mục chưa có link TikTok của các sản phẩm này. Nếu chưa có và không kịp đăng, nhóm chủ lực chỉ còn B-26, và bán hết 38 sản phẩm cũng chỉ đạt 15.162.000đ.
-3. **Giá và voucher:** giá trên TikTok có khớp danh mục không? Voucher có dùng cùng giá camp không, đơn tối thiểu bao nhiêu, ai chịu chi phí? Giá camp áp dụng ngày nào?
+2. **Sản phẩm trên TikTok:** MC1200, MC870, MC500, A-014 đã có trên TikTok Shop chưa? Danh mục chưa có link TikTok của các sản phẩm này. Nếu chưa có và không kịp đăng, nhóm chủ lực chỉ còn B-26, và bán hết 38 sản phẩm cũng chỉ đạt 15.922.000đ.
+3. **Giá và voucher:** bảng giá 02/11 và voucher flash sale 50.000đ có áp dụng cho TikTok không? Đơn tối thiểu bao nhiêu, ai chịu chi phí voucher? Giá camp áp dụng ngày nào?
 4. **Tồn kho:** có nhập thêm B-26 và MC870 không, vì hai sản phẩm này không đủ hàng cho cả hai sàn? Có duyệt để TikTok giữ 24 MC1200, 10 MC500 và 8 A-014 không? Có nhập thêm B-02PRO, A-028, MC650 không? Nếu có hàng về kịp, kế hoạch sẽ được cập nhật.
 5. **Mục tiêu và ngân sách:** 30.000.000đ và 3.000.000đ vẫn là số giả định. Cần số thật và duyệt bảng phân bổ ở mục 1.
 6. **Dữ liệu TikTok:** xuất dữ liệu bán hàng, quảng cáo, video và LIVE vào `data/tiktok/`. Có dữ liệu sớm thì có thể đổi sản phẩm chủ lực trước khi bắt đầu quay ngày 02/11.

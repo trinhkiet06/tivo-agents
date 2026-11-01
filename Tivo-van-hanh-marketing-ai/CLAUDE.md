@@ -18,15 +18,19 @@ Trước khi làm nhiệm vụ nào, đọc file quy trình của nhiệm vụ �
 
 | File hoặc thư mục | Nội dung | Tình trạng |
 |---|---|---|
-| `san-pham.xlsx` | TÊN SẢN PHẨM, MÃ SP, GIÁ NIÊM YẾT, GIÁ BÁN DAILY, GIÁ BÁN CAMP, VOUCHER, LINK HÌNH ẢNH, LINK TIKTOK, THÔNG TIN SẢN PHẨM. Tiêu đề cột ở dòng 3 | Đã có |
+| `san-pham.xlsx` | TÊN SẢN PHẨM, MÃ SP, GIÁ NIÊM YẾT, GIÁ BÁN DAILY, GIÁ BÁN CAMP, VOUCHER, LINK HÌNH ẢNH, LINK TIKTOK, THÔNG TIN SẢN PHẨM. Tiêu đề cột ở dòng 3 | Đã có, giá cập nhật 02/11/2026 |
 | `ton-kho.xlsx` | Mã SP, Tên sản phẩm, Tồn kho hiện tại, Ngưỡng cảnh báo. Copy từ phòng Vận hành | Đã có |
-| `lich-sale-va-ngan-sach.xlsx` | Lịch sale nội bộ, khung giờ, ngân sách, mục tiêu | Đã có |
-| `tiktok/` | Dữ liệu bán hàng, quảng cáo, video xuất từ TikTok, tên file tùy ý | Đang trống |
-| `anh-san-pham/<MÃ SP>/` | Ảnh sản phẩm thật dùng làm ảnh tham chiếu cho video AI | Chưa có, người phụ trách bổ sung |
-| `cong-cu-video.md` | Tên công cụ video AI, thời lượng tối đa mỗi cảnh, tỷ lệ khung hình, giới hạn khác | Chưa có, người phụ trách bổ sung |
+| `lich-sale-va-ngan-sach.xlsx` | Lịch sale nội bộ, khung giờ, ngân sách, mục tiêu | Đã có, ngày chính thức cập nhật 02/11/2026 |
+| `chot-sale.xlsx` | Sheet Voucher (flash sale 50.000đ, đơn tối thiểu, bên chịu chi phí) và Phân bổ kho (đang bán trên TikTok, số lượng dành cho TikTok) | Có mức voucher, chưa có phần chốt |
+| `tiktok/` | `du-lieu-tiktok.xlsx` gồm sheet Bán hàng, Quảng cáo, Video, LIVE, và file xuất từ TikTok, tên file tùy ý | Mẫu trống |
+| `anh-san-pham/<MÃ SP>/` | Ảnh sản phẩm thật dùng làm ảnh tham chiếu cho video AI | Có thư mục, chưa có ảnh |
+| `anh-san-pham.xlsx` | Thư mục ảnh, link hình ảnh trong danh mục, ảnh đã đủ hay chưa | Có link, chưa đánh dấu |
+| `cong-cu-video.xlsx` | Tên công cụ video AI, thời lượng tối đa mỗi cảnh, tỷ lệ khung hình, giới hạn khác | Có tỷ lệ 9:16, còn lại trống |
 | `luu-tru/` | Tài liệu cũ của Shopee | Không dùng |
 
-Đọc hết file trong `tiktok/` trước khi lập kế hoạch hoặc viết content. Thư mục trống thì nói rõ, và ghi phần nào là ước đoán vì thiếu dữ liệu.
+Đọc hết file trong `tiktok/` trước khi lập kế hoạch hoặc viết content. Chưa có dòng số liệu nào thì nói rõ, và ghi phần nào là ước đoán vì thiếu dữ liệu.
+
+Trong các file mới, tiêu đề cột ở dòng 1. Không đọc sheet Hướng dẫn như dữ liệu, vì dòng ví dụ trong đó không phải số thật. Ô trống nghĩa là chưa có.
 
 ## Quy tắc chung
 - Trả lời và viết đầu ra bằng tiếng Việt, ngắn gọn, định dạng Markdown.
@@ -34,6 +38,7 @@ Trước khi làm nhiệm vụ nào, đọc file quy trình của nhiệm vụ �
 - Không bịa ngày sale, số liệu hay thông số. Thiếu dữ liệu thì ghi rõ thiếu gì và bỏ trống.
 - Chỗ nào là ước đoán thì ghi rõ "Giả định:" kèm lý do.
 - Dùng đúng giá camp và voucher trong danh mục, không tự đặt giá.
+- Giá camp là giá khách trả sau voucher: giá daily − voucher = giá camp. Không lấy giá camp trừ voucher thêm lần nữa.
 - Chỉ quảng bá sản phẩm còn đủ tồn kho. Sản phẩm dưới ngưỡng cảnh báo không làm content và video.
 - Không dùng doanh số Shopee để suy ra kết quả TikTok. Từ phòng Vận hành chỉ lấy tồn kho.
 - Không cam kết công dụng y tế hay hiệu quả quá mức cho sản phẩm chăm sóc răng miệng.

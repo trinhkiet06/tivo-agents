@@ -5,7 +5,7 @@
 - `V1.mp4`: video hoàn chỉnh do người phụ trách lưu vào.
 - `kiem-tra.md`: kết quả kiểm tra của từng video.
 
-**Đầu vào:** content đã duyệt ở `output/2-content/`, ảnh ở `data/anh-san-pham/<MÃ SP>/`, thông tin công cụ ở `data/cong-cu-video.md`.
+**Đầu vào:** content đã duyệt ở `output/2-content/`, ảnh ở `data/anh-san-pham/<MÃ SP>/`, danh sách ảnh ở `data/anh-san-pham.xlsx`, thông tin công cụ ở `data/cong-cu-video.xlsx`.
 
 Agent chưa được kết nối công cụ tạo video AI nên không tự xuất ra file video. Nếu sau này có công cụ kết nối, phải hỏi chủ shop trước khi chạy vì có thể mất phí.
 
@@ -13,7 +13,7 @@ Agent chưa được kết nối công cụ tạo video AI nên không tự xu�
 
 - Content chưa duyệt thì dừng và báo.
 - Sản phẩm chưa có ảnh thật thì dừng video đó và báo thiếu. Không tả sản phẩm theo tưởng tượng.
-- Chưa có `data/cong-cu-video.md` thì viết bộ lệnh dùng chung cho video dọc 9:16 và ghi rõ giả định.
+- `data/cong-cu-video.xlsx` chưa có tên công cụ thì viết bộ lệnh dùng chung cho video dọc 9:16 và ghi rõ giả định.
 
 ## Bước 2: Viết bộ lệnh cho từng video
 

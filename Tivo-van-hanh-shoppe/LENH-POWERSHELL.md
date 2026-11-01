@@ -105,7 +105,7 @@ Với agent Shopee, gõ yêu cầu bằng lời theo 4 nhiệm vụ:
 
 ```text
 Tra cứu lịch flash sale và ngày sale Shopee 60 ngày tới
-Set voucher cho đợt 11.11
+Set giá và voucher cho đợt 11.11
 Soạn trả lời cho khách hỏi: tăm nước có chống nước không?
 Soạn tin hỏi lý do các đơn bị hủy tuần này
 Làm báo cáo kỳ 24/10 - 30/10/2026

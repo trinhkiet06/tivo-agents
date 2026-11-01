@@ -2,7 +2,7 @@
 
 Thay các chỗ trong [ngoặc vuông] bằng thông tin thật. Đổi thông tin chính sách thì phải được chủ shop duyệt.
 
-**Giả định:** chưa có chính sách đổi trả riêng của shop, nên các mẫu chỉ nhắc chung "theo chính sách hiện hành".
+**Giả định:** `data/chinh-sach-shop.xlsx` chưa có chính sách đổi trả, nên các mẫu chỉ nhắc chung "theo chính sách hiện hành".
 Danh mục chỉ ghi bảo hành 12 tháng cho B-02PRO, B-26, A-028 và A-014. Các mã bình giữ nhiệt không ghi thời hạn bảo hành.
 
 ## Hỏi hàng
@@ -11,7 +11,7 @@ Danh mục chỉ ghi bảo hành 12 tháng cho B-02PRO, B-26, A-028 và A-014. C
 
 ## Hỏi giờ hoặc ngày sale
 
-> Dạ đợt [tên chương trình] diễn ra từ [giờ, ngày bắt đầu] đến [giờ, ngày kết thúc] ạ. Sản phẩm [tên sản phẩm] có giá [giá camp], kèm voucher [mức voucher]. Bạn nhớ lưu voucher trước giờ sale nhé ạ.
+> Dạ đợt [tên chương trình] diễn ra từ [giờ, ngày bắt đầu] đến [giờ, ngày kết thúc] ạ. Sản phẩm [tên sản phẩm] còn [giá camp] sau khi dùng voucher [mức voucher]. Bạn nhớ lưu voucher trước giờ sale nhé ạ.
 
 ## Hỏi livestream
 

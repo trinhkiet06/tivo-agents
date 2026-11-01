@@ -49,7 +49,7 @@ Nếu đã trễ hơn D-7, vẫn lập kế hoạch rút gọn và đặt cảnh
 
 1. **Thông tin đợt sale:** tên, ngày giờ, trạng thái, hạn đăng ký, nguồn, cảnh báo.
 2. **Mục tiêu và ngân sách:** lấy từ file nội bộ, không có thì ghi là đề xuất.
-3. **Sản phẩm đẩy mạnh:** căn cứ dữ liệu TikTok và tồn kho, kèm giá camp và voucher.
+3. **Sản phẩm đẩy mạnh:** căn cứ dữ liệu TikTok, tồn kho và phần kho đã chốt trong `data/chot-sale.xlsx`, kèm giá daily, voucher và giá camp.
 4. **Sản phẩm không đẩy:** nêu lý do.
 5. **Thông điệp chính:** mỗi giai đoạn một thông điệp.
 6. **Lịch truyền thông D-7 đến D+3:** bảng gồm ngày, giờ, mã video, sản phẩm, thông điệp, trạng thái.

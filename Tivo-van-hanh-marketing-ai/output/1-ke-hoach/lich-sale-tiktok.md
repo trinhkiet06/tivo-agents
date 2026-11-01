@@ -8,6 +8,8 @@
 
 ## Bảng tổng hợp
 
+Cột "File nội bộ ghi" là số trước khi sửa. Ngày 02/11/2026, file nội bộ đã đổi theo các dòng Chính thức.
+
 | Chương trình | Ngày chạy | Trạng thái | File nội bộ ghi | Lệch? | Nguồn |
 |---|---|---|---|---|---|
 | **TikTok Shop 11.11** | **03 – 15/11** (đỉnh dự kiến 11/11, thứ Tư) | **Chính thức** về ngày chạy; **Dự kiến** về ngày đỉnh | 07 – 12/11 | **Có** | [1] |

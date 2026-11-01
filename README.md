@@ -10,8 +10,11 @@
 
 Các mục sau không đưa lên GitHub, nên phải chép riêng sang máy khác:
 
-- Thư mục `data/` của cả ba phần, gồm đơn hàng, tồn kho và danh mục sản phẩm.
+- File `Tivo-van-hanh-shoppe/data/gia-von.xlsx`, chứa giá vốn.
+- Thư mục `Tivo-dashboard/data/`.
 - File `Tivo-dashboard/.env.local`, chứa khóa bí mật.
+
+Thư mục `data/` của hai agent đã có trong repo. Repo này phải luôn để riêng tư.
 
 ## Lấy về máy khác
 
@@ -22,7 +25,7 @@ Set-Location "C:\BaitapDevC\agents"
 git clone https://github.com/<tài-khoản>/tivo-agents.git
 ```
 
-Sau đó chép các thư mục `data/` vào đúng chỗ và chạy agent:
+Sau đó chép các file ở trên vào đúng chỗ và chạy agent:
 
 ```powershell
 python -m pip install openpyxl pandas

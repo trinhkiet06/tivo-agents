@@ -2,7 +2,7 @@
 
 **Đầu ra:** `output/2-content/<tên-sale>/content-<tên-sale>.md`
 
-**Đầu vào:** kế hoạch truyền thông ở `output/1-ke-hoach/`, `data/san-pham.xlsx`, `data/ton-kho.xlsx`, `data/tiktok/`. Chưa có kế hoạch thì làm nhiệm vụ 1 trước, trừ khi chủ shop yêu cầu một video riêng.
+**Đầu vào:** kế hoạch truyền thông ở `output/1-ke-hoach/`, `data/san-pham.xlsx`, `data/ton-kho.xlsx`, `data/chot-sale.xlsx`, `data/tiktok/`. Chưa có kế hoạch thì làm nhiệm vụ 1 trước, trừ khi chủ shop yêu cầu một video riêng.
 
 ## Mẫu cho mỗi video
 
@@ -25,7 +25,7 @@
 ## Quy tắc nội dung
 
 - Thông số và tính năng chỉ lấy từ cột THÔNG TIN SẢN PHẨM. Danh mục không có thì không nêu.
-- Video có giá phải dùng đúng giá camp và voucher, kèm rõ thời điểm áp dụng.
+- Video có giá phải dùng đúng giá camp và voucher, kèm rõ thời điểm áp dụng. Giá camp đã gồm voucher, nên không viết giá camp trừ voucher thêm lần nữa.
 - Chỉ nói "sắp hết hàng" khi tồn kho thật sự thấp.
 - Với sản phẩm chăm sóc răng miệng, tên chế độ chỉ là tên chế độ. Không hứa trắng răng, hết ê buốt hay khỏe nướu.
 - Không viết lời chứng thực của khách hàng, chuyên gia hay người nổi tiếng nếu không có thật.

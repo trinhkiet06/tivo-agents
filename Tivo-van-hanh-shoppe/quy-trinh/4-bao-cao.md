@@ -2,7 +2,7 @@
 
 **Đầu ra:** `output/4-bao-cao/ngay-<yyyy-mm-dd>.md`, `tuan-<năm>-<số tuần>.md` hoặc `thang-<yyyy-mm>.md`. Số tuần lấy theo ngày cuối kỳ, tính theo tuần ISO. Không ghi đè báo cáo của kỳ khác.
 
-**Đầu vào:** `data/don-hang-thang.xlsx`, `data/ton-kho.xlsx`, `data/san-pham.xlsx`, ghép bằng Mã SP.
+**Đầu vào:** `data/don-hang-thang.xlsx`, `data/don-cho-gui.xlsx`, `data/ton-kho.xlsx`, `data/san-pham.xlsx`, ghép bằng Mã SP.
 
 Mặc định là 7 ngày gần nhất có dữ liệu, so với 7 ngày liền trước. Kỳ chưa đủ ngày thì nói rõ và so với kỳ có cùng số ngày.
 
@@ -18,7 +18,7 @@ Dùng đúng các quy ước này để số liệu các kỳ so được với 
 
 | Nhóm đơn | Trạng thái trong dữ liệu |
 |---|---|
-| Đang chờ gửi | Chờ xác nhận, chờ lấy hàng. **File hiện chưa có trạng thái này**, nên ghi "chưa có dữ liệu" và không tính thay bằng trạng thái khác |
+| Đang chờ gửi | Lấy từ `data/don-cho-gui.xlsx`, ghi kèm ngày xuất dữ liệu. File trống thì ghi "chưa có dữ liệu" và không tính thay bằng trạng thái khác |
 | Đang giao | "Đang giao", nêu riêng vì chưa biết kết quả |
 | Đã gửi thành công | "Hoàn thành" |
 | Bị hủy | "Đã hủy" |
@@ -41,4 +41,4 @@ Dùng đúng các quy ước này để số liệu các kỳ so được với 
 
 Chủ shop có thể đổi hai ngưỡng 5 sản phẩm và 20%. Sản phẩm win đang dưới ngưỡng tồn kho vẫn giữ trong top 3, nhưng phải cảnh báo kèm số ngày còn bán được. Số ngày này = tồn kho / số bán trung bình mỗi ngày của kỳ, ghi rõ là ước tính.
 
-Không có giá vốn nên báo cáo không tính lợi nhuận.
+Báo cáo không tính lợi nhuận khi `data/gia-von.xlsx` còn trống.

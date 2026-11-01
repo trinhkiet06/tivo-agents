@@ -1,6 +1,6 @@
 # 1. Lập kế hoạch: tra cứu giờ và ngày sale
 
-Mục tiêu: có một lịch sale Shopee đáng tin để dùng cho việc set voucher và trả lời khách.
+Mục tiêu: có một lịch sale Shopee đáng tin để dùng cho việc set giá, set voucher và trả lời khách.
 
 **Đầu ra:** `output/1-ke-hoach/lich-sale-shopee.md`. Mỗi lần tra cứu thì cập nhật file này và ghi ngày tra cứu.
 
@@ -18,14 +18,14 @@ Ghi thêm hạn đăng ký và điều kiện tham gia nếu tìm được.
 
 ## Thứ tự nguồn
 
-1. `data/lich-sale-kenh-nguoi-ban.md`, do người phụ trách chép từ Kênh Người Bán.
+1. `data/lich-sale.xlsx`, do người phụ trách chép từ Kênh Người Bán. Chỉ dòng ghi Chính thức mới được coi là chính thức.
 2. Trang và thông báo chính thức của Shopee Việt Nam, gồm Học viện Shopee.
 3. Báo điện tử và trang tin thương mại điện tử uy tín.
 4. Blog và hội nhóm nhà bán hàng, chỉ để tham khảo và phải ghi là nguồn không chính thức.
 
 ## Trạng thái
 
-- **Chính thức:** có từ nguồn 1 hoặc 2, hoặc có ít nhất 2 nguồn uy tín khớp nhau.
+- **Chính thức:** có từ dòng Chính thức của nguồn 1, từ nguồn 2, hoặc có ít nhất 2 nguồn uy tín khớp nhau.
 - **Dự kiến:** suy theo thông lệ hoặc chỉ có nguồn không chính thức.
 - **Chưa tìm thấy:** không có thông tin. Giờ nào chưa tìm thấy thì để trống, không tự điền.
 - Nếu các nguồn mâu thuẫn, liệt kê cả hai và chọn nguồn chính thức hơn.
