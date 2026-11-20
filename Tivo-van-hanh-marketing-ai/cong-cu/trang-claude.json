@@ -1,4 +1,14 @@
 {
-  "ke-hoach": {"slug": "06b3ceed-8496-4eb4-8139-d75a6f081b02", "url": "https://claude.ai/artifact/1q1B6zcpwwboFqxYjzGcp9"},
-  "video": {"slug": "1b830835-23d7-4174-818b-f44d0ca9afb8", "url": "https://claude.ai/artifact/4Q3T46bsAkBjafcFQJKqHR"}
+  "ke-hoach": {
+    "slug": "06b3ceed-8496-4eb4-8139-d75a6f081b02",
+    "url": "https://claude.ai/artifact/1q1B6zcpwwboFqxYjzGcp9"
+  },
+  "video": {
+    "slug": "1b830835-23d7-4174-818b-f44d0ca9afb8",
+    "url": "https://claude.ai/artifact/4Q3T46bsAkBjafcFQJKqHR"
+  },
+  "tong-quan": {
+    "slug": "b730f7d3-7c43-4f1e-be5a-f9fa10c35ab2",
+    "url": "https://claude.ai/artifact/Pd2rTqHWHWf3x8By2F6J17"
+  }
 }
