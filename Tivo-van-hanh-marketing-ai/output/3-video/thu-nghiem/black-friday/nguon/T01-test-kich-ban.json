@@ -1,0 +1,13 @@
+{
+  "out": "output/3-video/black-friday/test/T01-test.mp4",
+  "kieu": "T01",
+  "campaign": "BLACK FRIDAY",
+  "ma_sp": "B-26",
+  "anh": "data/anh-san-pham/B-26/B-26-1.png",
+  "bang_mau": "black-friday",
+  "nhip1": {"tieu_de": "SẮP CÓ SALE LỚN", "phu": "Bàn chải điện B-26"},
+  "nhip2": {"tieu_de": "BLACK FRIDAY", "phu": "Khung giờ vàng 0h · ngày 27.11", "tem": "27.11"},
+  "nhip3": {"tieu_de": "XEM ƯU ĐÃI TẠI GIỎ HÀNG", "ten_sp": "Bàn chải điện B-26", "gia_niem_yet": 990000, "gia_campaign": null, "nhan": "ĐẶT LỊCH 27.11"},
+  "cta": {"tieu_de": "NHẤN MUA NGAY", "phu": "Xem sản phẩm tại TIVO SMART", "nhan_cuoi": "LƯU VOUCHER NGAY"},
+  "dieu_kien": "Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng."
+}

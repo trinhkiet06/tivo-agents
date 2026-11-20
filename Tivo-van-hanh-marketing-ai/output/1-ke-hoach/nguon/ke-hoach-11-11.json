@@ -1,0 +1,691 @@
+{
+  "out": "output/1-ke-hoach/ke-hoach-11-11.xlsx",
+  "tieu_de": "KẾ HOẠCH TRUYỀN THÔNG TIKTOK SHOP 11.11",
+  "ten_trang": "TIVO Kế hoạch TikTok",
+  "thong_tin": [
+    "Shop TIVO Smart trên TikTok  |  Ngày lập: 01/11/2026, cập nhật giá 02/11/2026, xuất Excel Thứ Hai 02/11/2026  |  Trạng thái: Chờ duyệt",
+    "Chưa có số liệu bán hàng, quảng cáo, video hay LIVE nào trên TikTok, nên việc chọn sản phẩm và nội dung là ước đoán."
+  ],
+  "trang": [
+    {
+      "ten": "Tổng quan",
+      "khoi": [
+        {
+          "loai": "chi_so",
+          "muc": [
+            {
+              "nhan": "Ngày đỉnh",
+              "gia_tri": "Thứ Tư 11/11",
+              "dang": "text",
+              "ghi_chu": "Đợt sale chạy 03/11 đến 15/11"
+            },
+            {
+              "nhan": "Số ngày còn lại",
+              "gia_tri": 9,
+              "dang": "so",
+              "ghi_chu": "Tính từ Thứ Hai 02/11"
+            },
+            {
+              "nhan": "Mục tiêu doanh số ngày 11/11",
+              "gia_tri": 30000000,
+              "dang": "tien",
+              "ghi_chu": "Số giả định trong lịch sale nội bộ"
+            },
+            {
+              "nhan": "Ngân sách marketing cả đợt",
+              "gia_tri": 3000000,
+              "dang": "tien",
+              "ghi_chu": "Số giả định, chờ duyệt"
+            }
+          ]
+        },
+        {
+          "loai": "doan",
+          "tieu_de": "Tóm tắt nhanh",
+          "dong": [
+            "Đợt sale TikTok Shop 11.11 chạy từ Thứ Ba 03/11 đến Chủ Nhật 15/11, ngày đỉnh dự kiến Thứ Tư 11/11, còn 9 ngày.",
+            "Sản phẩm đẩy mạnh: Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870; nhóm phụ: Bình giữ nhiệt Magic MC500, Quạt sạc cầm tay mini.",
+            "Mục tiêu 30.000.000đ ngày 11/11 cần bán khoảng 72 sản phẩm theo giá sau voucher (kịch bản tính theo tồn kho, không phải dự báo).",
+            "Hôm nay chủ shop cần kiểm tra hạn đăng ký chiến dịch, xác nhận sản phẩm nào đang bán trên TikTok và chốt giá, voucher, tồn kho.",
+            "Marketing cần quay xong 8 video khởi động (V1 đến V8) để đăng video đầu tiên lúc 18:00 Thứ Ba 03/11."
+          ]
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Việc cần làm",
+          "cot": [
+            "Việc cần làm",
+            "Người làm",
+            "Hạn",
+            "Mức độ"
+          ],
+          "to_mau": {
+            "cot": "Mức độ",
+            "Gấp": "do",
+            "Trong tuần": "vang",
+            "Khi có thể": "xam",
+            "Đã xong": "xanh"
+          },
+          "dong": [
+            [
+              "Mở Seller Center xem hạn đăng ký, điều kiện, khung giờ vàng và hashtag 11.11",
+              "Chủ shop",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Đăng ký chiến dịch cho các sản phẩm đã có trên TikTok, trước hạn trong Seller Center",
+              "Chủ shop",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Xác nhận Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870, Bình giữ nhiệt Magic MC500 và Quạt sạc cầm tay mini đã bán trên TikTok chưa, điền vào file chốt sale",
+              "Chủ shop",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Chốt bảng giá 02/11 và voucher có áp dụng cho TikTok không, đơn tối thiểu, ai chịu chi phí voucher, ngày áp dụng giá",
+              "Chủ shop",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Quyết định nhập thêm Bàn chải điện Magic và Bình giữ nhiệt Magic MC870; duyệt giữ cho TikTok 24 Bình giữ nhiệt Magic MC1200, 10 Bình giữ nhiệt Magic MC500, 8 Quạt sạc cầm tay mini",
+              "Chủ shop",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Lấy ảnh và mẫu thật, quay video V1 đến V8",
+              "Marketing",
+              "Hôm nay, Thứ Hai 02/11",
+              "Gấp"
+            ],
+            [
+              "Xác nhận tồn kho thực tế và số lượng dành cho TikTok",
+              "Vận hành",
+              "Thứ Ba 03/11",
+              "Gấp"
+            ],
+            [
+              "Cài voucher ngày sale đúng ngày áp dụng, giữ giá trên sàn là giá daily để khách không được giảm hai lần",
+              "Chủ shop",
+              "Thứ Ba 03/11",
+              "Gấp"
+            ],
+            [
+              "Đăng V1 (Bàn chải điện Magic, 5 chế độ) lúc 18:00",
+              "Marketing",
+              "Thứ Ba 03/11",
+              "Gấp"
+            ],
+            [
+              "Duyệt kế hoạch, bảng phân bổ ngân sách và cho số mục tiêu thật",
+              "Chủ shop",
+              "Thứ Tư 04/11",
+              "Trong tuần"
+            ],
+            [
+              "Xuất dữ liệu bán hàng, quảng cáo, video và LIVE trên TikTok cho agent",
+              "Marketing",
+              "Thứ Tư 04/11",
+              "Trong tuần"
+            ],
+            [
+              "Dự webinar kịch bản LIVE của TikTok Shop",
+              "Marketing",
+              "Thứ Năm 05/11",
+              "Trong tuần"
+            ],
+            [
+              "Xác nhận dung tích đúng của Bình giữ nhiệt Magic MPI480 (tên ghi 480, danh mục ghi 500ml)",
+              "Chủ shop",
+              "Trước khi làm nội dung",
+              "Khi có thể"
+            ]
+          ]
+        },
+        {
+          "loai": "doan",
+          "tieu_de": "Cảnh báo",
+          "dong": [
+            "Hạn đăng ký chiến dịch chưa tìm thấy và có thể đã qua; lỡ hạn thì sản phẩm không lên trang chiến dịch; chủ shop kiểm tra Seller Center ngay hôm nay.",
+            "Đợt sale bắt đầu 03/11, sớm hơn mốc 7 ngày trước ngày đỉnh (04/11); video khởi động phải đăng từ ngày mai; marketing quay ngay hôm nay.",
+            "Danh mục chỉ có link TikTok của Bàn chải điện Magic, Tăm nước Magic và Quạt sạc để bàn Magic, hai sản phẩm sau đang sắp hết hàng; bán hết cả ba cũng chỉ được 25.019.000đ; chủ shop xác nhận các bình giữ nhiệt và quạt cầm tay đã lên TikTok chưa.",
+            "Bàn chải điện Magic và Bình giữ nhiệt Magic MC870 không đủ hàng cho cả TikTok và Shopee; không nhập thêm thì chỉ bán chắc được khoảng 18.438.000đ; chủ shop quyết định nhập hàng.",
+            "Voucher ngày sale theo kịch bản tốn 7.460.000đ, vượt ngân sách 3.000.000đ; chủ shop cần chốt ai chịu khoản này."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Lịch đăng",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Lịch đăng video và LIVE từ 03/11 đến 13/11",
+          "cot": [
+            "Ngày",
+            "Giờ",
+            "Video",
+            "Sản phẩm",
+            "Thông điệp",
+            "Trạng thái"
+          ],
+          "to_mau": {
+            "cot": "Trạng thái",
+            "Gấp": "do"
+          },
+          "dong": [
+            [
+              "Thứ Ba 03/11",
+              "18:00",
+              "V1",
+              "Bàn chải điện Magic",
+              "Một cây bàn chải, 5 chế độ",
+              "Gấp"
+            ],
+            [
+              "Thứ Tư 04/11",
+              "18:00",
+              "V4",
+              "Bình giữ nhiệt Magic MC1200",
+              "Bình 1,2 lít ngoài đời to cỡ nào",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Năm 05/11",
+              "18:00",
+              "V2",
+              "Bàn chải điện Magic",
+              "Tự đếm 2 phút đánh răng",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 06/11",
+              "18:00",
+              "V5",
+              "Bình giữ nhiệt Magic MC870, Bình giữ nhiệt Magic MC1200",
+              "870ml hay 1200ml, chọn bình nào",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Bảy 07/11",
+              "09:00",
+              "V6",
+              "Bình giữ nhiệt Magic MC870",
+              "Vàng, Hồng hay Xám",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Bảy 07/11",
+              "18:00",
+              "V3",
+              "Bàn chải điện Magic",
+              "Mở hộp xem có gì",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Bảy 07/11",
+              "20:00 – 21:00",
+              "LIVE thử",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Kiểm tra thiết bị và kịch bản",
+              "Chưa làm"
+            ],
+            [
+              "Chủ Nhật 08/11",
+              "18:00",
+              "V7",
+              "Quạt sạc cầm tay mini",
+              "Mặt kim loại lạnh sau 3 – 5 giây",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Hai 09/11",
+              "09:00",
+              "V8",
+              "Bình giữ nhiệt Magic MC500",
+              "Bình 500ml, 3 màu",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Hai 09/11",
+              "18:00",
+              "V9",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Lưu lại giá ngày 11/11",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Ba 10/11",
+              "09:00",
+              "V10",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Chỉ còn 1 ngày, lưu voucher ngay",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Ba 10/11",
+              "20:00 – 21:00",
+              "LIVE",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC870, Bình giữ nhiệt Magic MC1200",
+              "Nhắc lưu voucher và đặt lịch",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Tư 11/11",
+              "00:00",
+              "V11 và LIVE đến 01:00",
+              "Bàn chải điện Magic",
+              "0h rồi, giá 11/11 đã mở",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Tư 11/11",
+              "12:00",
+              "V12 và LIVE đến 13:00",
+              "Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Giữa trưa chọn bình nào",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Tư 11/11",
+              "18:00",
+              "Đăng lại V9",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Nhắc giá và LIVE tối",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Tư 11/11",
+              "20:00 – 22:00",
+              "LIVE chính",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870, Bình giữ nhiệt Magic MC500, Quạt sạc cầm tay mini",
+              "Chốt đơn ngày đỉnh",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Năm 12/11",
+              "18:00",
+              "V13",
+              "Bàn chải điện Magic, Bình giữ nhiệt Magic MC1200, Bình giữ nhiệt Magic MC870",
+              "Cảm ơn khách đã ủng hộ",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 13/11",
+              "18:00",
+              "V14",
+              "Bàn chải điện Magic",
+              "Hướng dẫn đổi chế độ",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 13/11",
+              "20:00 – 21:00",
+              "LIVE",
+              "Sản phẩm còn hàng",
+              "Cảm ơn, bán tiếp nếu giá vẫn áp dụng",
+              "Chưa làm"
+            ]
+          ],
+          "ghi_chu": "Giờ đăng 09:00 và 18:00 theo lịch sale nội bộ. Khung giờ vàng ngày 11/11 là dự kiến. Giả định: giá camp và voucher bắt đầu từ 00:00 ngày 11/11; nếu áp dụng sớm hơn hoặc kéo dài đến 15/11 thì phải đổi lịch và câu chữ về giá. Nếu không có thêm hàng Bàn chải điện trước 08/11: bỏ Bàn chải điện khỏi V9, V10, không đăng V11, LIVE mở đầu bằng Bình MC1200."
+        }
+      ]
+    },
+    {
+      "ten": "Sản phẩm",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Sản phẩm đẩy mạnh",
+          "cot": [
+            "Sản phẩm",
+            "Vai trò",
+            "Giá daily",
+            "Voucher",
+            "Giá camp (khách trả)",
+            "Tồn kho"
+          ],
+          "dang": [
+            "text",
+            "text",
+            "tien",
+            "tien",
+            "tien",
+            "text"
+          ],
+          "dong": [
+            [
+              "Bàn chải điện Magic",
+              "Chủ lực",
+              509000,
+              90000,
+              419000,
+              "38, mức tối thiểu 20"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC1200",
+              "Chủ lực",
+              609000,
+              110000,
+              499000,
+              "60, mức tối thiểu 15"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC870",
+              "Chủ lực",
+              579000,
+              110000,
+              469000,
+              "35, mức tối thiểu 15"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC500",
+              "Phụ",
+              459000,
+              100000,
+              359000,
+              "52, mức tối thiểu 20"
+            ],
+            [
+              "Quạt sạc cầm tay mini",
+              "Phụ",
+              459000,
+              100000,
+              359000,
+              "46, mức tối thiểu 15"
+            ]
+          ],
+          "ghi_chu": "Giá camp là giá khách trả sau voucher (giá daily trừ voucher). Chỉ Bàn chải điện Magic có link TikTok trong danh mục; bốn sản phẩm còn lại chờ chủ shop xác nhận. Chưa kiểm tra được mức giảm tối thiểu của chiến dịch; Bàn chải điện giảm ít nhất nhóm (17,7%) nên cần xem trước. Bàn chải điện và MC870 chỉ giữ vai trò chủ lực nếu có thêm hàng."
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Sản phẩm không đẩy",
+          "cot": [
+            "Sản phẩm",
+            "Tồn kho",
+            "Mức tối thiểu",
+            "Lý do"
+          ],
+          "dang": [
+            "text",
+            "so",
+            "so",
+            "text"
+          ],
+          "dong": [
+            [
+              "Tăm nước Magic",
+              14,
+              20,
+              "Sắp hết hàng"
+            ],
+            [
+              "Quạt sạc để bàn Magic",
+              9,
+              15,
+              "Sắp hết hàng"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC650",
+              11,
+              15,
+              "Sắp hết hàng"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC570",
+              41,
+              15,
+              "Chưa có link TikTok; nay có voucher 70.000đ (giá camp 289.000đ), chủ shop có thể đưa vào nhóm phụ"
+            ],
+            [
+              "Bình giữ nhiệt Magic MPI480",
+              28,
+              10,
+              "Tên ghi 480 nhưng danh mục ghi 500ml, cần làm rõ trước khi làm nội dung"
+            ]
+          ],
+          "ghi_chu": "Sản phẩm sắp hết hàng không làm video, không chạy quảng cáo, không đưa vào LIVE."
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Hàng còn dư dự kiến sáng 11/11 (sau khi trừ hàng Shopee)",
+          "cot": [
+            "Sản phẩm",
+            "Tồn kho",
+            "Shopee dự kiến bán 31/10 – 10/11",
+            "Còn sáng 11/11",
+            "Dư trên mức tối thiểu"
+          ],
+          "dang": [
+            "text",
+            "so",
+            "so",
+            "so",
+            "so"
+          ],
+          "dong": [
+            [
+              "Bàn chải điện Magic",
+              38,
+              22,
+              16,
+              0
+            ],
+            [
+              "Bình giữ nhiệt Magic MC870",
+              35,
+              18,
+              17,
+              2
+            ],
+            [
+              "Bình giữ nhiệt Magic MC1200",
+              60,
+              5,
+              55,
+              40
+            ],
+            [
+              "Quạt sạc cầm tay mini",
+              46,
+              5,
+              41,
+              26
+            ],
+            [
+              "Bình giữ nhiệt Magic MC500",
+              52,
+              8,
+              44,
+              24
+            ],
+            [
+              "Bình giữ nhiệt Magic MC570",
+              41,
+              7,
+              34,
+              19
+            ],
+            [
+              "Bình giữ nhiệt Magic MPI480",
+              28,
+              7,
+              21,
+              11
+            ]
+          ],
+          "ghi_chu": "Giả định: Shopee bán trước sale theo tốc độ tuần 24/10 – 30/10, tồn kho là số cuối ngày 30/10. Số Shopee chỉ dùng để tính tồn kho chung, không dùng đoán kết quả TikTok. Chưa trừ hàng TikTok bán từ 03/11."
+        }
+      ]
+    },
+    {
+      "ten": "Ngân sách",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Đề xuất phân bổ ngân sách 3.000.000đ (chờ duyệt)",
+          "cot": [
+            "Khoản chi",
+            "Số tiền",
+            "Căn cứ"
+          ],
+          "dang": [
+            "text",
+            "tien",
+            "text"
+          ],
+          "dong": [
+            [
+              "Quảng cáo GMV Max (quảng cáo tự tối ưu doanh số) ngày 11/11",
+              500000,
+              "Theo lịch sale nội bộ"
+            ],
+            [
+              "Quảng cáo khởi động 08 – 10/11, 200.000đ mỗi ngày",
+              600000,
+              "Đề xuất"
+            ],
+            [
+              "Quảng cáo sau sale 12 – 13/11, 150.000đ mỗi ngày",
+              300000,
+              "Đề xuất"
+            ],
+            [
+              "Chưa phân bổ",
+              1440000,
+              "Chờ chủ shop quyết định"
+            ],
+            [
+              "Đạo cụ quay và dự phòng",
+              160000,
+              "Phần còn lại"
+            ],
+            [
+              "Tổng",
+              3000000,
+              "Số giả định trong lịch sale nội bộ"
+            ]
+          ],
+          "ghi_chu": "Chưa gồm voucher, phí sàn và hoa hồng tiếp thị liên kết. Voucher ngày sale theo kịch bản dưới đây là 7.460.000đ, vượt ngân sách; chủ shop cần chốt ai chịu."
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Kịch bản số lượng để đạt mục tiêu ngày 11/11",
+          "cot": [
+            "Sản phẩm",
+            "Giá camp (khách trả)",
+            "Số lượng",
+            "Doanh số"
+          ],
+          "dang": [
+            "text",
+            "tien",
+            "so",
+            "tien"
+          ],
+          "dong": [
+            [
+              "Bình giữ nhiệt Magic MC1200",
+              499000,
+              24,
+              11976000
+            ],
+            [
+              "Bình giữ nhiệt Magic MC870",
+              469000,
+              16,
+              7504000
+            ],
+            [
+              "Bàn chải điện Magic",
+              419000,
+              14,
+              5866000
+            ],
+            [
+              "Bình giữ nhiệt Magic MC500",
+              359000,
+              10,
+              3590000
+            ],
+            [
+              "Quạt sạc cầm tay mini",
+              359000,
+              8,
+              2872000
+            ],
+            [
+              "Tổng",
+              "",
+              72,
+              31808000
+            ]
+          ],
+          "ghi_chu": "Phép tính theo tồn kho, không phải dự báo. Giả định: mọi đơn đều dùng voucher ngày sale. Không nhập thêm hàng thì chỉ bán chắc được MC1200 24, MC500 10 và quạt cầm tay 8, đạt 18.438.000đ, thiếu 11.562.000đ. Muốn đủ kịch bản cần thêm 14 Bàn chải điện và 16 MC870."
+        }
+      ]
+    },
+    {
+      "ten": "Thông tin còn thiếu",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Thông tin còn thiếu",
+          "cot": [
+            "Còn thiếu",
+            "Ảnh hưởng",
+            "Giả định đang dùng"
+          ],
+          "dong": [
+            [
+              "Hạn đăng ký và điều kiện chiến dịch 11.11",
+              "Không biết còn kịp đăng ký và giá có đạt yêu cầu không",
+              "Vẫn chạy bằng giá và voucher của shop"
+            ],
+            [
+              "Sản phẩm nào đang bán trên TikTok (file chốt sale còn trống)",
+              "Có thể chỉ còn Bàn chải điện, bán hết 38 cái chỉ được 15.922.000đ",
+              "Các bình giữ nhiệt và quạt cầm tay có trên TikTok"
+            ],
+            [
+              "Xác nhận giá, voucher cho TikTok; đơn tối thiểu, bên chịu voucher, ngày áp dụng",
+              "Chưa chắc giá trong video và caption đúng",
+              "Bảng giá 02/11 áp dụng cho TikTok, giá camp từ 00:00 ngày 11/11"
+            ],
+            [
+              "Số lượng dành cho TikTok và quyết định nhập thêm hàng",
+              "Có thể hết hàng giữa ngày sale",
+              "Giữ 24 MC1200, 10 MC500, 8 quạt cầm tay cho TikTok"
+            ],
+            [
+              "Dữ liệu bán hàng, quảng cáo, video, LIVE trên TikTok",
+              "Chọn sản phẩm và nội dung chỉ là ước đoán",
+              "Chọn theo tồn kho, giá và tính năng dễ quay"
+            ],
+            [
+              "Khung giờ vàng và hashtag chính thức năm 2026",
+              "Giờ đăng và hashtag có thể lệch",
+              "Khung 00:00, 12:00, 20:00 – 22:00; hashtag #TikTokShop1111 của năm trước"
+            ],
+            [
+              "Mục tiêu và ngân sách thật",
+              "Phân bổ ngân sách có thể phải làm lại",
+              "30.000.000đ và 3.000.000đ trong lịch sale nội bộ"
+            ],
+            [
+              "Dung tích đúng của Bình giữ nhiệt Magic MPI480",
+              "Chưa làm nội dung được cho sản phẩm này",
+              "Không đẩy sản phẩm này"
+            ]
+          ],
+          "ghi_chu": "Ngày đỉnh 11/11 là dự kiến, suy từ tên chương trình. Ngày chạy 03 – 15/11 là chính thức theo Học viện TikTok Shop và khớp lịch sale nội bộ. Nguồn dữ liệu: data/san-pham.xlsx, data/ton-kho.xlsx, data/lich-sale-va-ngan-sach.xlsx, data/chot-sale.xlsx, data/tiktok/du-lieu-tiktok.xlsx, output/1-ke-hoach/ke-hoach-truyen-thong-11-11.md."
+        }
+      ]
+    }
+  ]
+}

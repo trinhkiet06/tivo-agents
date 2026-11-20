@@ -19,7 +19,7 @@
 - Caption:
 - Hashtag:
 - Thông tin lấy từ: <cột hoặc file nguồn>
-- Trạng thái: chờ duyệt
+- Trạng thái: sẵn sàng làm video (tác vụ video dùng luôn, không chờ duyệt)
 ```
 
 ## Quy tắc nội dung

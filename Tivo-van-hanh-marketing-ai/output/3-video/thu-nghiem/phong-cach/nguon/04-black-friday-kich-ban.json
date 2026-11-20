@@ -1,0 +1,108 @@
+{
+ "out": "output/3-video/test-phong-cach/04-black-friday.mp4",
+ "kieu": "T01",
+ "campaign": "BLACK FRIDAY",
+ "giay_moi_sp": 1.5,
+ "san_pham": [
+  {
+   "ma_sp": "MC1200",
+   "anh": "data/anh-san-pham/MC1200/MC1200-1.png",
+   "ten_sp": "Bình MC1200",
+   "gia_niem_yet": 790000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "MC500",
+   "anh": "data/anh-san-pham/MC500/MC500-1.png",
+   "ten_sp": "Bình MC500",
+   "gia_niem_yet": 690000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "MC570",
+   "anh": "data/anh-san-pham/MC570/MC570-1.png",
+   "ten_sp": "Bình MC570",
+   "gia_niem_yet": 590000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "A-014",
+   "anh": "data/anh-san-pham/A-014/A-014-1.png",
+   "ten_sp": "Quạt cầm tay A-014",
+   "gia_niem_yet": 690000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "B-02PRO",
+   "anh": "data/anh-san-pham/B-02PRO/B-02PRO-1.png",
+   "ten_sp": "Tăm nước B-02 Pro",
+   "gia_niem_yet": 990000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "B-26",
+   "anh": "data/anh-san-pham/B-26/B-26-1.png",
+   "ten_sp": "Bàn chải điện B-26",
+   "gia_niem_yet": 990000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "A-028",
+   "anh": "data/anh-san-pham/A-028/A-028-1.png",
+   "ten_sp": "Quạt bàn A-028",
+   "gia_niem_yet": 790000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "MC650",
+   "anh": "data/anh-san-pham/MC650/MC650-1.png",
+   "ten_sp": "Bình MC650",
+   "gia_niem_yet": 790000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "MC870",
+   "anh": "data/anh-san-pham/MC870/MC870-1.png",
+   "ten_sp": "Bình MC870",
+   "gia_niem_yet": 790000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  },
+  {
+   "ma_sp": "MPI480",
+   "anh": "data/anh-san-pham/MPI480/MPI480-1.png",
+   "ten_sp": "Bình MPI480",
+   "gia_niem_yet": 790000,
+   "gia_campaign": null,
+   "dong_phu": ""
+  }
+ ],
+ "nhip1": {
+  "tieu_de": "SẮP CÓ SALE LỚN",
+  "phu": "10 sản phẩm Magic tại TIVO SMART"
+ },
+ "nhip2": {
+  "tieu_de": "BLACK FRIDAY",
+  "phu": "Khung giờ vàng 0h · ngày 27.11",
+  "tem": "27.11"
+ },
+ "nhip_sp": {
+  "tieu_de": "XEM ƯU ĐÃI TẠI GIỎ HÀNG",
+  "nhan": "ĐẶT LỊCH 27.11"
+ },
+ "cta": {
+  "tieu_de": "NHẤN MUA NGAY",
+  "phu": "Xem 10 sản phẩm tại TIVO SMART",
+  "nhan_cuoi": "LƯU VOUCHER NGAY"
+ },
+ "dieu_kien": "Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng.",
+ "phong_cach": "black-friday"
+}

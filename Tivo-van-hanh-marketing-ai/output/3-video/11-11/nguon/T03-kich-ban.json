@@ -1,0 +1,12 @@
+{
+  "out": "output/3-video/11-11/T03.mp4",
+  "kieu": "T03",
+  "campaign": "SALE 11.11",
+  "ma_sp": "B-26",
+  "anh": "data/anh-san-pham/B-26/B-26-1.png",
+  "nhip1": {"tieu_de": "BÀN CHẢI ĐIỆN B-26", "phu": "5 chế độ · rung 40.000 lần/phút"},
+  "nhip2": {"tieu_de": "ĐÁNG MUA VÌ", "phu": "Smartimer 2 phút · Pin 1.200mAh dùng khoảng 30 ngày", "tem": ["SMARTIMER 2 PHÚT", "IPX7"]},
+  "nhip3": {"tieu_de": "XEM ƯU ĐÃI TẠI GIỎ HÀNG", "ten_sp": "Bàn chải điện B-26", "gia_niem_yet": 990000, "gia_campaign": null, "nhan": "BẤM GIỎ HÀNG"},
+  "cta": {"tieu_de": "NHẤN MUA NGAY", "phu": "Xem sản phẩm tại TIVO SMART", "nhan_cuoi": "MUA NGAY"},
+  "dieu_kien": "Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng."
+}

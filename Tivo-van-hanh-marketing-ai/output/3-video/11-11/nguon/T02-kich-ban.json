@@ -1,0 +1,12 @@
+{
+  "out": "output/3-video/11-11/T02.mp4",
+  "kieu": "T02b",
+  "campaign": "SALE 11.11",
+  "ma_sp": "B-26",
+  "anh": "data/anh-san-pham/B-26/B-26-1.png",
+  "nhip1": {"tieu_de": "BÀN CHẢI ĐIỆN B-26", "phu": "5 chế độ · rung 40.000 lần/phút"},
+  "nhip2": {"tieu_de": "SALE 11.11", "phu": "Ưu đãi theo thể lệ chương trình tại thời điểm mua hàng", "tem": "11.11"},
+  "nhip3": {"tieu_de": "XEM ƯU ĐÃI TẠI GIỎ HÀNG", "ten_sp": "Bàn chải điện B-26", "gia_niem_yet": 990000, "gia_campaign": null, "nhan": "NGÀY SALE 11.11"},
+  "cta": {"tieu_de": "NHẤN MUA NGAY", "phu": "Xem sản phẩm tại TIVO SMART", "nhan_cuoi": "MUA NGAY"},
+  "dieu_kien": "Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng."
+}

@@ -1,8 +1,18 @@
 # 1. Lập kế hoạch: tra cứu ngày sale và kế hoạch truyền thông
 
+
 **Đầu ra:**
 - `output/1-ke-hoach/lich-sale-tiktok.md`: lịch tra cứu được, cập nhật mỗi lần tra và ghi ngày tra cứu.
 - `output/1-ke-hoach/ke-hoach-truyen-thong-<tên-sale>.md`: kế hoạch cho từng đợt sale.
+- `output/1-ke-hoach/ke-hoach-<tên-sale>.xlsx`: bản Excel cho người đọc, JSON nguồn trong `output/1-ke-hoach/nguon/`. Gồm các sheet:
+
+| Sheet | Nội dung |
+|---|---|
+| Tổng quan | Ô số liệu (ngày đỉnh, số ngày còn lại, mục tiêu doanh số, ngân sách), Tóm tắt nhanh, Việc cần làm và việc chủ shop cần chốt kèm hạn, Cảnh báo |
+| Lịch đăng | Ngày (kèm thứ), giờ, video, sản phẩm, thông điệp, trạng thái |
+| Sản phẩm | Sản phẩm đẩy mạnh và không đẩy, giá daily, voucher, giá camp, tồn kho, lý do |
+| Ngân sách | Khoản chi, số tiền, căn cứ |
+| Thông tin còn thiếu | Thứ còn thiếu, ảnh hưởng, giả định |
 
 ## Bước 1: Tra cứu ngày sale
 
@@ -47,11 +57,17 @@ Nếu đã trễ hơn D-7, vẫn lập kế hoạch rút gọn và đặt cảnh
 
 ## Nội dung kế hoạch truyền thông
 
+Trình bày theo mục "Cách trình bày đầu ra" trong CLAUDE.md. Đầu kế hoạch theo thứ tự: tiêu đề, **Tóm tắt nhanh** (đợt sale, ngày đỉnh, số ngày còn lại, sản phẩm đẩy mạnh, mục tiêu doanh số), **Việc cần làm** (gồm cả việc chủ shop cần chốt, kèm hạn), rồi **Cảnh báo** (tối đa 5, mỗi cái 1 đến 2 câu). Sau đó là các mục:
+
 1. **Thông tin đợt sale:** tên, ngày giờ, trạng thái, hạn đăng ký, nguồn, cảnh báo.
 2. **Mục tiêu và ngân sách:** lấy từ file nội bộ, không có thì ghi là đề xuất.
-3. **Sản phẩm đẩy mạnh:** căn cứ dữ liệu TikTok, tồn kho và phần kho đã chốt trong `data/chot-sale.xlsx`, kèm giá daily, voucher và giá camp.
+3. **Sản phẩm đẩy mạnh:** căn cứ số bán trên TikTok (`data/tiktok/`), tồn kho và phần kho đã chốt trong `data/chot-sale.xlsx`, kèm giá daily, voucher và giá camp. Không dựa vào kế hoạch hay số bán Shopee. Chưa có số bán TikTok thì ghi "Giả định:" và lý do chọn.
 4. **Sản phẩm không đẩy:** nêu lý do.
 5. **Thông điệp chính:** mỗi giai đoạn một thông điệp.
 6. **Lịch truyền thông D-7 đến D+3:** bảng gồm ngày, giờ, mã video, sản phẩm, thông điệp, trạng thái.
-7. **Danh sách video cần làm:** mã video V1, V2, ... để chuyển sang nhiệm vụ 2.
+7. **Danh sách video cần làm:**
+   - Chuỗi video sale chính luôn là 4 video **T01 teaser, T02 ưu đãi, T03 lợi ích sản phẩm, T04 đếm ngược**, theo `quy-trinh/mau-video-tiktok.md`.
+   - Mặc định T01 đăng ngày D-6, T02 ngày D-4, T03 ngày D-2, T04 ngày D-1, cùng lúc 18:00.
+   - Mỗi video liệt kê tất cả sản phẩm. Ghi rõ sản phẩm được đẩy mạnh, để tác vụ video xếp lên đầu danh sách.
+   - Video khác (V1, V2, ...) chỉ thêm khi cần, để chuyển sang nhiệm vụ 2.
 8. **Cần chủ shop chốt:** nêu rõ từng việc và hạn.

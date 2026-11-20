@@ -1,10 +1,17 @@
 # Lịch sale TikTok Shop Việt Nam: kết quả tra cứu
 
-**Ngày tra cứu:** 01/11/2026 | **Khoảng tra cứu:** 60 ngày tới, đến 31/12/2026
+**Ngày tra cứu:** 01/11/2026, tra cứu lại Thứ Ba 10/11/2026 | **Khoảng tra cứu:** 60 ngày tới, đến 31/12/2026
 
 **Nguồn chính:** ảnh "Lịch Chiến Dịch Cuối Năm 2026" trong bài [Lịch Chiến Dịch TikTok Shop 2026](https://seller-vn.tiktok.com/university/essay?knowledge_id=6210902215264001&lang=en) của Học viện TikTok Shop, trang cập nhật ngày 19/10/2026 ([ảnh gốc](https://p16-oec-university-sign-sg.ibyteimg.com/tos-alisg-i-nk3i2mqmvs-sg/75f3fa23182341e3908cc794a4e5bb64~tplv-nk3i2mqmvs-image.png?lk3s=5d1a069b&x-expires=2107737948&x-signature=b6XVmQps5Xvh9hZUOD4syiGWmF8%3D)).
 
 **Giới hạn của nguồn:** ảnh chỉ có tên và ngày chạy. Chưa tìm thấy công bố về hạn đăng ký, điều kiện tham gia, khung giờ vàng và hashtag năm 2026. Các thông tin này chỉ xem được khi đăng nhập Seller Center, mà lần tra cứu này không truy cập được.
+
+## Tra cứu lại ngày 10/11/2026
+
+- Trang Lịch Chiến Dịch của Học viện TikTok Shop vẫn ghi cập nhật 19/10/2026, lịch quý 4 vẫn ở dạng ảnh. Không có thay đổi so với lần tra 01/11.
+- Black Friday 26 – 27/11 và Lương Về 11 24 – 25/11: vẫn **Chính thức** theo lần tra 01/11; lịch sale nội bộ đã khớp. Hạn đăng ký, điều kiện, khung giờ vàng và hashtag: vẫn chưa tìm thấy công bố.
+- [GHN](https://ghn.vn/blogs/tip-ban-hang/lich-sale-tiktok) (09/10/2026, không chính thức) không ghi ngày Black Friday cụ thể; Lương Về khung 19h – 22h.
+- Đợt được chọn để lập kế hoạch: **Black Friday**, ngày đỉnh dự kiến Thứ Sáu 27/11 (còn 17 ngày).
 
 ## Bảng tổng hợp
 

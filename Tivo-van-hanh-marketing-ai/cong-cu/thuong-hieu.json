@@ -1,0 +1,92 @@
+{
+  "_ghi_chu": "Nhận diện cố định của TIVO SMART theo mục 2 trong quy-trinh/mau-video-tiktok.md. Chỉ chủ shop đổi file này. tem_chinh_hang chỉ bật (true) khi chủ shop xác nhận có căn cứ hàng chính hãng. Logo: đặt file PNG nền trong vào cong-cu/thuong-hieu/logo.png, chưa có file thì video ghi chữ TIVO SMART.",
+  "ten_shop": "TIVO SMART",
+  "username": "@_tivo.official_",
+  "logo": "cong-cu/thuong-hieu/logo.png",
+  "linh_vat": "cong-cu/thuong-hieu/linh-vat.png",
+  "tem_chinh_hang": false,
+  "che_do": "ban-hang",
+  "_che_do": "ban-hang: video giữ nguyên mẫu chữ của shop (chủ shop xác nhận 19/11/2026, đăng bằng nick TikTok cá nhân để tiếp thị cho shop). quang-ba: công cụ dừng nếu chữ trên video có từ trong tu_cam_quang_ba.",
+  "tu_cam_quang_ba": ["giỏ hàng", "giỏ", "mua ngay", "mua", "voucher", "ưu đãi", "đặt lịch", "deal", "giảm", "sale", "flash", "chốt đơn", "freeship", "tặng"],
+  "dieu_kien_quang_ba": "Giá niêm yết tham khảo, có thể thay đổi theo thời điểm.",
+  "dieu_kien_mac_dinh": "Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng.",
+  "mau": {
+    "nen1": "#E53935",
+    "nen2": "#B71C1C",
+    "toi": "#7F1717",
+    "toi2": "#641313",
+    "chu": "#FFFFFF",
+    "kem": "#FFF3E0",
+    "nhan": "#FFC857"
+  },
+  "phong_cach": {
+    "_ghi_chu": "Mỗi sự kiện một phong cách riêng. Kịch bản ghi \"phong_cach\": tên dưới đây và \"thang\": số tháng của ngày cao điểm. Sự kiện lặp hằng tháng đổi màu theo tháng trong mau_theo_thang. hoa_tiet: kim-tuyen, vong-tron, dong-xu, tia-sang, luoi-neon, tuyet, phao-hoa, hoa. chuyen_canh: truot-ngang, truot-doc, phong-to. tem: tron, sao-no, the-gia, khung-vuong. khung: bo-goc, vat-goc, vien. hieu_ung: glitch, chop-sang, rung.",
+    "ngay-doi": {
+      "ten": "Ngày đôi", "hoa_tiet": "kim-tuyen", "chuyen_canh": "truot-ngang", "tem": "sao-no", "khung": "bo-goc", "hieu_ung": "glitch",
+      "mau_theo_thang": {
+        "1":  {"nen1": "#C62828", "nen2": "#7F0000", "toi": "#5A0000", "toi2": "#420000", "nhan": "#FFD54F"},
+        "2":  {"nen1": "#D81B60", "nen2": "#880E4F", "toi": "#5C0A33", "toi2": "#3E0722", "nhan": "#FFC857"},
+        "3":  {"nen1": "#00897B", "nen2": "#004D40", "toi": "#003D33", "toi2": "#002B24", "nhan": "#FFD54F"},
+        "4":  {"nen1": "#7B1FA2", "nen2": "#4A148C", "toi": "#33105F", "toi2": "#240B44", "nhan": "#FFC857"},
+        "5":  {"nen1": "#F4511E", "nen2": "#BF360C", "toi": "#7A2408", "toi2": "#5A1A06", "nhan": "#FFE082"},
+        "6":  {"nen1": "#1E88E5", "nen2": "#0D47A1", "toi": "#0A3275", "toi2": "#072456", "nhan": "#FFC857"},
+        "7":  {"nen1": "#43A047", "nen2": "#1B5E20", "toi": "#12451A", "toi2": "#0C3212", "nhan": "#FFE082"},
+        "8":  {"nen1": "#EC407A", "nen2": "#AD1457", "toi": "#6E0D37", "toi2": "#4F0927", "nhan": "#FFF176"},
+        "9":  {"nen1": "#5E35B1", "nen2": "#311B92", "toi": "#22136A", "toi2": "#180D4C", "nhan": "#FFC857"},
+        "10": {"nen1": "#FB8C00", "nen2": "#E65100", "toi": "#8A3000", "toi2": "#632200", "nhan": "#FFF59D"},
+        "11": {"nen1": "#E53935", "nen2": "#B71C1C", "toi": "#7F1717", "toi2": "#641313", "nhan": "#FFC857"},
+        "12": {"nen1": "#00838F", "nen2": "#004D56", "toi": "#00363D", "toi2": "#00272C", "nhan": "#FFD54F"}
+      }
+    },
+    "giua-thang": {
+      "ten": "Giữa tháng", "hoa_tiet": "vong-tron", "chuyen_canh": "truot-doc", "tem": "the-gia", "khung": "vien", "hieu_ung": "chop-sang",
+      "mau_theo_thang": [
+        {"nen1": "#1565C0", "nen2": "#0B2E6B", "toi": "#0A2350", "toi2": "#071A3D", "nhan": "#FFD54F"},
+        {"nen1": "#6A1B9A", "nen2": "#2E0854", "toi": "#24063F", "toi2": "#1A042E", "nhan": "#80DEEA"},
+        {"nen1": "#00796B", "nen2": "#00332C", "toi": "#00261F", "toi2": "#001A16", "nhan": "#FFAB91"},
+        {"nen1": "#AD1457", "nen2": "#4A0626", "toi": "#3A041D", "toi2": "#2A0315", "nhan": "#B9F6CA"},
+        {"nen1": "#283593", "nen2": "#111640", "toi": "#0D1132", "toi2": "#090C24", "nhan": "#FF8A80"},
+        {"nen1": "#0277BD", "nen2": "#01386B", "toi": "#012B52", "toi2": "#011F3B", "nhan": "#FFE57F"}
+      ]
+    },
+    "luong-ve": {
+      "ten": "Lương về", "hoa_tiet": "dong-xu", "chuyen_canh": "phong-to", "tem": "tron", "khung": "vat-goc", "hieu_ung": "rung",
+      "mau_theo_thang": [
+        {"nen1": "#2E7D32", "nen2": "#0B3D12", "toi": "#08300E", "toi2": "#06240A", "nhan": "#FFD54F"},
+        {"nen1": "#00695C", "nen2": "#00302A", "toi": "#00241F", "toi2": "#001A16", "nhan": "#FFCA28"},
+        {"nen1": "#4E342E", "nen2": "#1E120F", "toi": "#170E0B", "toi2": "#100A08", "nhan": "#FFD740"},
+        {"nen1": "#1B5E20", "nen2": "#0A2A0C", "toi": "#072009", "toi2": "#051706", "nhan": "#FFE082"}
+      ]
+    },
+    "black-friday": {
+      "ten": "Black Friday", "hoa_tiet": "tia-sang", "chuyen_canh": "truot-doc", "tem": "khung-vuong", "khung": "vat-goc", "hieu_ung": "glitch",
+      "mau": {"nen1": "#2A2A2A", "nen2": "#0A0A0A", "toi": "#1C1C1C", "toi2": "#000000", "nhan": "#FFC857"}
+    },
+    "cyber-monday": {
+      "ten": "Cyber Monday", "hoa_tiet": "luoi-neon", "chuyen_canh": "truot-ngang", "tem": "khung-vuong", "khung": "vien", "hieu_ung": "glitch",
+      "mau": {"nen1": "#1A1446", "nen2": "#05030F", "toi": "#120E33", "toi2": "#0A0820", "kem": "#E0F7FA", "nhan": "#00E5FF"}
+    },
+    "noel": {
+      "ten": "Noel", "hoa_tiet": "tuyet", "chuyen_canh": "truot-ngang", "tem": "tron", "khung": "bo-goc", "hieu_ung": "chop-sang",
+      "mau": {"nen1": "#2E7D32", "nen2": "#1B5E20", "toi": "#7F1717", "toi2": "#641313", "nhan": "#FFFFFF"}
+    },
+    "tet-duong-lich": {
+      "ten": "Tết Dương lịch", "hoa_tiet": "phao-hoa", "chuyen_canh": "phong-to", "tem": "sao-no", "khung": "vien", "hieu_ung": "chop-sang",
+      "mau": {"nen1": "#24477F", "nen2": "#0F1F3D", "toi": "#0B1730", "toi2": "#081226", "kem": "#E6E9EF", "nhan": "#FFC857"}
+    },
+    "tet-nguyen-dan": {
+      "ten": "Tết Nguyên đán", "hoa_tiet": "hoa", "chuyen_canh": "truot-doc", "tem": "tron", "khung": "vat-goc", "hieu_ung": "chop-sang",
+      "mau": {"nen1": "#D32F2F", "nen2": "#8E0000", "toi": "#640000", "toi2": "#4A0000", "nhan": "#FFD54F"},
+      "mau_hoa_tiet": "#FFD54F"
+    },
+    "20-11": {
+      "ten": "Ngày Nhà giáo 20/11", "hoa_tiet": "hoa", "chuyen_canh": "truot-ngang", "tem": "the-gia", "khung": "bo-goc", "hieu_ung": "chop-sang",
+      "mau": {"nen1": "#E91E63", "nen2": "#880E4F", "toi": "#5E0A36", "toi2": "#450727", "nhan": "#FFF3E0"},
+      "mau_hoa_tiet": "#FFFFFF"
+    },
+    "halloween": {
+      "ten": "Halloween", "hoa_tiet": "vong-tron", "chuyen_canh": "phong-to", "tem": "khung-vuong", "khung": "vat-goc", "hieu_ung": "rung",
+      "mau": {"nen1": "#4A148C", "nen2": "#12002B", "toi": "#1F0640", "toi2": "#150430", "nhan": "#FF9800"}
+    }
+  }
+}

@@ -1,0 +1,840 @@
+{
+ "out": "output/3-video/11-11/lich-dang-video.xlsx",
+ "tieu_de": "LỊCH ĐĂNG VIDEO TIKTOK SALE 11.11",
+ "ten_trang": "TIVO Video TikTok",
+ "thong_tin": [
+  "Shop TIVO Smart trên TikTok  |  Cập nhật: Thứ Hai 16/11/2026 (lần chạy 00:20)  |  Trạng thái: video tự tạo, không cần duyệt; người phụ trách tải lên và đăng",
+  "Đợt này làm đủ 4 video theo mẫu dựng mới của shop (T01–T04), cùng một sản phẩm: Bàn chải điện Magic B-26."
+ ],
+ "trang": [
+  {
+   "ten": "Video",
+   "khoi": [
+    {
+     "loai": "video",
+     "tieu_de": "Video SALE 11.11 đã xong",
+     "muc": [
+      {
+       "file": "output/3-video/11-11/T01.mp4",
+       "anh_bia": "output/3-video/11-11/T01-anh-bia.jpg",
+       "ten": "T01 Báo trước đợt sale – Bàn chải điện Magic B-26",
+       "ngay": "Thứ Năm 05/11, 18:00",
+       "caption": "Sắp có SALE 11.11! Bàn chải điện B-26 với 5 chế độ, rung 40.000 lần/phút. Khung giờ vàng 0h ngày Thứ Tư 11/11, nhớ đặt lịch nhé. Xem sản phẩm tại TIVO SMART!",
+       "hashtag": "#TIVOSMART #TIVO #Sale1111 #BanChaiDien"
+      },
+      {
+       "file": "output/3-video/11-11/T02.mp4",
+       "anh_bia": "output/3-video/11-11/T02-anh-bia.jpg",
+       "ten": "T02 Video ưu đãi – Bàn chải điện Magic B-26",
+       "ngay": "Thứ Bảy 07/11, 18:00",
+       "caption": "Đón SALE 11.11 cùng Bàn chải điện B-26: 5 chế độ, rung 40.000 lần/phút. Ưu đãi ngày Thứ Tư 11/11 theo thể lệ chương trình, xem chi tiết tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
+       "hashtag": "#TIVOSMART #TIVO #Sale1111 #BanChaiDien"
+      },
+      {
+       "file": "output/3-video/11-11/T03.mp4",
+       "anh_bia": "output/3-video/11-11/T03-anh-bia.jpg",
+       "ten": "T03 Lý do nên mua – Bàn chải điện Magic B-26",
+       "ngay": "Thứ Ba 10/11, 12:00 (đăng sớm nhất có thể)",
+       "caption": "Bàn chải điện B-26 đáng mua vì đâu? Smartimer 2 phút, pin 1.200mAh dùng khoảng 30 ngày, chống nước IPX7. Ưu đãi SALE 11.11 ngày Thứ Tư 11/11 theo thể lệ chương trình, xem tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
+       "hashtag": "#TIVOSMART #TIVO #Sale1111 #BanChaiDien"
+      },
+      {
+       "file": "output/3-video/11-11/T04.mp4",
+       "anh_bia": "output/3-video/11-11/T04-anh-bia.jpg",
+       "ten": "T04 Đếm ngược – Bàn chải điện Magic B-26",
+       "ngay": "Thứ Ba 10/11, 18:00",
+       "caption": "Còn 1 ngày nữa là SALE 11.11! Bàn chải điện B-26 với 5 chế độ, rung 40.000 lần/phút. Mở deal 0h ngày Thứ Tư 11/11, ưu đãi theo thể lệ chương trình. Thêm vào giỏ ngay tại TIVO SMART!",
+       "hashtag": "#TIVOSMART #TIVO #Sale1111 #BanChaiDien"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ten": "Lịch đăng",
+   "khoi": [
+    {
+     "loai": "chi_so",
+     "muc": [
+      {
+       "nhan": "Video đã xong",
+       "gia_tri": 4,
+       "dang": "so",
+       "ghi_chu": "Đủ T01–T04, Bàn chải điện Magic B-26"
+      },
+      {
+       "nhan": "Video chưa đến ngày",
+       "gia_tri": 0,
+       "dang": "so",
+       "ghi_chu": "SALE 11.11 không còn video nào; video Black Friday đầu tiên đăng 18:00 Thứ Bảy 21/11"
+      },
+      {
+       "nhan": "Video bị bỏ qua",
+       "gia_tri": 0,
+       "dang": "so",
+       "ghi_chu": "Không có"
+      }
+     ]
+    },
+    {
+     "loai": "doan",
+     "tieu_de": "Tóm tắt nhanh",
+     "dong": [
+      "Lần chạy Thứ Hai 16/11 không có video mới: không có video nào trong kế hoạch cần đăng từ 16/11 đến 18/11.",
+      "SALE 11.11 và Sale Giữa Tháng 11 đã qua; đủ 4 video T01–T04 (Bàn chải điện Magic) đã xong từ trước.",
+      "Video gần nhất tiếp theo: T01 Black Friday, đăng 18:00 Thứ Bảy 21/11. Công cụ sẽ tự làm video này từ lần chạy Thứ Năm 19/11.",
+      "Mẫu video mới liệt kê nhiều sản phẩm trong một video. Theo dữ liệu hiện tại, chỉ Bàn chải điện Magic đủ điều kiện (có link TikTok, đủ hàng).",
+      "Tăm nước Magic và Quạt sạc để bàn Magic có link TikTok nhưng sắp hết hàng; các bình giữ nhiệt và Quạt sạc cầm tay mini chưa có link TikTok, nên chưa vào được video Black Friday."
+     ]
+    },
+    {
+     "loai": "bang",
+     "tieu_de": "Việc cần làm",
+     "cot": [
+      "Việc cần làm",
+      "Người làm",
+      "Hạn",
+      "Mức độ"
+     ],
+     "to_mau": {
+      "cot": "Mức độ",
+      "Gấp": "do",
+      "Trong tuần": "vang",
+      "Khi có thể": "xam"
+     },
+     "dong": [
+      [
+       "Bổ sung link TikTok cho Bình giữ nhiệt Magic MC1200 (chủ lực Black Friday) và các bình giữ nhiệt khác vào danh mục sản phẩm",
+       "Chủ shop",
+       "Thứ Tư 18/11",
+       "Gấp"
+      ],
+      [
+       "Cập nhật tồn kho sau đợt 11.11; nhập thêm Tăm nước Magic (còn 14, cần trên 20) và Quạt sạc để bàn Magic (còn 9, cần trên 15) nếu muốn đưa vào video",
+       "Vận hành",
+       "Thứ Ba 17/11",
+       "Gấp"
+      ],
+      [
+       "Xác nhận giá và voucher Black Friday cho TikTok trong file chốt sale để video ghi được giá sau voucher",
+       "Chủ shop",
+       "Thứ Tư 18/11",
+       "Trong tuần"
+      ],
+      [
+       "Xuất dữ liệu TikTok của 4 video 11.11 (lượt xem, đơn hàng) để rút kinh nghiệm cho Black Friday",
+       "Marketing",
+       "Thứ Ba 17/11",
+       "Trong tuần"
+      ],
+      [
+       "Gửi file logo TIVO SMART nền trong suốt",
+       "Chủ shop",
+       "Khi có",
+       "Khi có thể"
+      ]
+     ]
+    },
+    {
+     "loai": "bang",
+     "tieu_de": "Lịch đăng video",
+     "cot": [
+      "Video",
+      "Sản phẩm",
+      "Ngày giờ đăng",
+      "Tên file video",
+      "Tình trạng",
+      "Ghi chú"
+     ],
+     "to_mau": {
+      "cot": "Tình trạng",
+      "Đã xong": "xanh",
+      "Bị bỏ qua": "do",
+      "Chưa đến ngày": "xam"
+     },
+     "dong": [
+      [
+       "T01 – Báo trước đợt sale",
+       "Bàn chải điện Magic B-26",
+       "Thứ Năm 05/11, 18:00",
+       "T01.mp4",
+       "Đã xong",
+       "Đã qua ngày đăng"
+      ],
+      [
+       "T02 – Video ưu đãi",
+       "Bàn chải điện Magic B-26",
+       "Thứ Bảy 07/11, 18:00",
+       "T02.mp4",
+       "Đã xong",
+       "Dùng mẫu ưu đãi chung vì chưa có chương trình mua tặng; đã qua ngày đăng"
+      ],
+      [
+       "T03 – Lý do nên mua",
+       "Bàn chải điện Magic B-26",
+       "Thứ Ba 10/11, 12:00",
+       "T03.mp4",
+       "Đã xong",
+       "Lịch cũ Thứ Hai 09/11, đăng bù Thứ Ba 10/11; đã qua ngày đăng"
+      ],
+      [
+       "T04 – Đếm ngược",
+       "Bàn chải điện Magic B-26",
+       "Thứ Ba 10/11, 18:00",
+       "T04.mp4",
+       "Đã xong",
+       "Còn 1 ngày đến Thứ Tư 11/11; đã qua ngày đăng"
+      ]
+     ],
+     "ghi_chu": "Ngày đăng theo lịch mặc định vì kế hoạch truyền thông chưa có lịch riêng cho T01–T04: trước ngày 11/11 lần lượt 6, 4, 2 và 1 ngày, lúc 18:00. T03 dời sang 12:00 Thứ Ba 10/11 vì chưa kịp làm đúng ngày."
+    }
+   ]
+  },
+  {
+   "ten": "Kịch bản",
+   "khoi": [
+    {
+     "loai": "bang",
+     "tieu_de": "Kịch bản 9 giây",
+     "cot": [
+      "Video",
+      "Thời gian",
+      "Nhịp",
+      "Chữ trên màn hình",
+      "Hình ảnh và hiệu ứng"
+     ],
+     "dong": [
+      [
+       "T01 Teaser",
+       "0.0–0.4 giây",
+       "Mở",
+       "TIVO SMART + SALE 11.11",
+       "Bàn chải hiện từ mờ đến rõ, trượt nhẹ từ trên xuống"
+      ],
+      [
+       "T01 Teaser",
+       "0.4–2.4 giây",
+       "Nhịp 1 – Móc câu",
+       "SẮP CÓ SALE LỚN / Bàn chải điện B-26",
+       "Bàn chải giữa khung, trôi lên nhẹ, đốm sáng lấp lánh"
+      ],
+      [
+       "T01 Teaser",
+       "2.4–2.8 giây",
+       "Chuyển 1 sang 2",
+       "Tiêu đề nhịp 1 mờ đi, tiêu đề nhịp 2 hiện lên",
+       "Bàn chải phóng to nhẹ, nảy kiểu pop"
+      ],
+      [
+       "T01 Teaser",
+       "2.8–4.6 giây",
+       "Nhịp 2 – Lợi ích",
+       "SALE 11.11 / Khung giờ vàng 0h · ngày 11.11",
+       "Bàn chải + tem tròn 11.11 xoay vào"
+      ],
+      [
+       "T01 Teaser",
+       "4.6–4.9 giây",
+       "Chuyển 2 sang 3",
+       "Chữ nhịp 2 thu nhỏ",
+       "Bàn chải thu nhỏ, lùi sang trái; nhiễu màu ngắn khoảng 0,25 giây"
+      ],
+      [
+       "T01 Teaser",
+       "4.9–7.4 giây",
+       "Nhịp 3 – Chốt",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · Nhãn: ĐẶT LỊCH 11.11",
+       "Bàn chải bật ra bên trái, tên sản phẩm và giá niêm yết 990.000đ bên phải, dòng điều kiện chữ nhỏ"
+      ],
+      [
+       "T01 Teaser",
+       "7.4–9.0 giây",
+       "Kêu gọi mua",
+       "NHẤN MUA NGAY / Xem sản phẩm tại TIVO SMART / @_tivo.official_ · Nhãn lật thành: LƯU VOUCHER NGAY",
+       "Bàn chải chính giữa, nhãn lật dọc 0,2 giây rồi đập theo nhịp"
+      ],
+      [
+       "T02 Ưu đãi",
+       "0.0–0.4 giây",
+       "Mở",
+       "TIVO SMART + SALE 11.11",
+       "Bàn chải hiện từ mờ đến rõ, trượt nhẹ từ trên xuống"
+      ],
+      [
+       "T02 Ưu đãi",
+       "0.4–2.4 giây",
+       "Nhịp 1 – Móc câu",
+       "BÀN CHẢI ĐIỆN B-26 / 5 chế độ · rung 40.000 lần/phút",
+       "Bàn chải giữa khung, trôi lên nhẹ, đốm sáng lấp lánh"
+      ],
+      [
+       "T02 Ưu đãi",
+       "2.4–2.8 giây",
+       "Chuyển 1 sang 2",
+       "Tiêu đề nhịp 1 mờ đi, tiêu đề nhịp 2 hiện lên",
+       "Bàn chải phóng to nhẹ, nảy kiểu pop"
+      ],
+      [
+       "T02 Ưu đãi",
+       "2.8–4.6 giây",
+       "Nhịp 2 – Lợi ích",
+       "SALE 11.11 / Ưu đãi theo thể lệ chương trình tại thời điểm mua hàng",
+       "Bàn chải + tem tròn 11.11 xoay vào"
+      ],
+      [
+       "T02 Ưu đãi",
+       "4.6–4.9 giây",
+       "Chuyển 2 sang 3",
+       "Chữ nhịp 2 thu nhỏ",
+       "Bàn chải thu nhỏ, lùi sang trái; nhiễu màu ngắn khoảng 0,25 giây"
+      ],
+      [
+       "T02 Ưu đãi",
+       "4.9–7.4 giây",
+       "Nhịp 3 – Chốt",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · Nhãn: NGÀY SALE 11.11",
+       "Bàn chải bật ra bên trái, tên sản phẩm và giá niêm yết 990.000đ bên phải, dòng điều kiện chữ nhỏ"
+      ],
+      [
+       "T02 Ưu đãi",
+       "7.4–9.0 giây",
+       "Kêu gọi mua",
+       "NHẤN MUA NGAY / Xem sản phẩm tại TIVO SMART / @_tivo.official_ · Nhãn lật thành: MUA NGAY",
+       "Bàn chải chính giữa, nhãn lật dọc 0,2 giây rồi đập theo nhịp"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "0.0–0.4 giây",
+       "Mở",
+       "TIVO SMART + SALE 11.11",
+       "Bàn chải hiện từ mờ đến rõ, trượt nhẹ từ trên xuống"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "0.4–2.4 giây",
+       "Nhịp 1 – Móc câu",
+       "BÀN CHẢI ĐIỆN B-26 / 5 chế độ · rung 40.000 lần/phút",
+       "Bàn chải giữa khung, trôi lên nhẹ, đốm sáng lấp lánh"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "2.4–2.8 giây",
+       "Chuyển 1 sang 2",
+       "Tiêu đề nhịp 1 mờ đi, tiêu đề nhịp 2 hiện lên",
+       "Bàn chải phóng to nhẹ, nảy kiểu pop"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "2.8–4.6 giây",
+       "Nhịp 2 – Lợi ích",
+       "ĐÁNG MUA VÌ / Smartimer 2 phút · Pin 1.200mAh dùng khoảng 30 ngày",
+       "Bàn chải + 2 tem lợi ích SMARTIMER 2 PHÚT và IPX7 bật ra 2 bên"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "4.6–4.9 giây",
+       "Chuyển 2 sang 3",
+       "Chữ nhịp 2 thu nhỏ",
+       "Bàn chải thu nhỏ, lùi sang trái; nhiễu màu ngắn khoảng 0,25 giây"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "4.9–7.4 giây",
+       "Nhịp 3 – Chốt",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · Nhãn: BẤM GIỎ HÀNG",
+       "Bàn chải bật ra bên trái, tên sản phẩm và giá niêm yết 990.000đ bên phải, dòng điều kiện chữ nhỏ"
+      ],
+      [
+       "T03 Lý do nên mua",
+       "7.4–9.0 giây",
+       "Kêu gọi mua",
+       "NHẤN MUA NGAY / Xem sản phẩm tại TIVO SMART / @_tivo.official_ · Nhãn lật thành: MUA NGAY",
+       "Bàn chải chính giữa, nhãn lật dọc 0,2 giây rồi đập theo nhịp"
+      ],
+      [
+       "T04 Đếm ngược",
+       "0.0–0.4 giây",
+       "Mở",
+       "TIVO SMART + SALE 11.11",
+       "Bàn chải hiện từ mờ đến rõ, trượt nhẹ từ trên xuống"
+      ],
+      [
+       "T04 Đếm ngược",
+       "0.4–2.4 giây",
+       "Nhịp 1 – Móc câu",
+       "CÒN 1 NGÀY / SALE 11.11",
+       "Số 1 cỡ to đập theo nhịp, sau đó bàn chải hiện lại"
+      ],
+      [
+       "T04 Đếm ngược",
+       "2.4–2.8 giây",
+       "Chuyển 1 sang 2",
+       "Tiêu đề nhịp 1 mờ đi, tiêu đề nhịp 2 hiện lên",
+       "Bàn chải phóng to nhẹ, nảy kiểu pop"
+      ],
+      [
+       "T04 Đếm ngược",
+       "2.8–4.6 giây",
+       "Nhịp 2 – Lợi ích",
+       "0H NGÀY 11.11 / Mở deal · Ưu đãi theo thể lệ chương trình",
+       "Bàn chải + tem giờ 0H xoay vào"
+      ],
+      [
+       "T04 Đếm ngược",
+       "4.6–4.9 giây",
+       "Chuyển 2 sang 3",
+       "Chữ nhịp 2 thu nhỏ",
+       "Bàn chải thu nhỏ, lùi sang trái; nhiễu màu ngắn khoảng 0,25 giây"
+      ],
+      [
+       "T04 Đếm ngược",
+       "4.9–7.4 giây",
+       "Nhịp 3 – Chốt",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · Nhãn: HẸN 0H 11.11 (nhấp nháy)",
+       "Bàn chải bật ra bên trái, tên sản phẩm và giá niêm yết 990.000đ bên phải, dòng điều kiện chữ nhỏ"
+      ],
+      [
+       "T04 Đếm ngược",
+       "7.4–9.0 giây",
+       "Kêu gọi mua",
+       "NHẤN MUA NGAY / Xem sản phẩm tại TIVO SMART / @_tivo.official_ · Nhãn lật thành: THÊM VÀO GIỎ",
+       "Bàn chải chính giữa, nhãn lật dọc 0,2 giây rồi đập theo nhịp"
+      ]
+     ],
+     "ghi_chu": "Dòng điều kiện chữ nhỏ ở nhịp 3: Ưu đãi áp dụng theo thể lệ chương trình tại thời điểm mua hàng. Giá và quà tặng (nếu có) theo thông tin hiển thị trên gian hàng."
+    }
+   ]
+  },
+  {
+   "ten": "Caption",
+   "khoi": [
+    {
+     "loai": "bang",
+     "tieu_de": "Caption và hashtag",
+     "cot": [
+      "Video",
+      "Caption",
+      "Hashtag",
+      "Nhãn nội dung AI",
+      "Sản phẩm gắn giỏ hàng"
+     ],
+     "dong": [
+      [
+       "T01",
+       "Sắp có SALE 11.11! Bàn chải điện B-26 với 5 chế độ, rung 40.000 lần/phút. Khung giờ vàng 0h ngày Thứ Tư 11/11, nhớ đặt lịch nhé. Xem sản phẩm tại TIVO SMART!",
+       "#TIVOSMART #TIVO #Sale1111 #BanChaiDien",
+       "Không bắt buộc: video là đồ họa từ ảnh sản phẩm thật, không có người, cảnh hay giọng nói giống thật do AI tạo",
+       "Bàn chải điện Magic B-26"
+      ],
+      [
+       "T02",
+       "Đón SALE 11.11 cùng Bàn chải điện B-26: 5 chế độ, rung 40.000 lần/phút. Ưu đãi ngày Thứ Tư 11/11 theo thể lệ chương trình, xem chi tiết tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
+       "#TIVOSMART #TIVO #Sale1111 #BanChaiDien",
+       "Không bắt buộc: video là đồ họa từ ảnh sản phẩm thật, không có người, cảnh hay giọng nói giống thật do AI tạo",
+       "Bàn chải điện Magic B-26"
+      ],
+      [
+       "T03",
+       "Bàn chải điện B-26 đáng mua vì đâu? Smartimer 2 phút, pin 1.200mAh dùng khoảng 30 ngày, chống nước IPX7. Ưu đãi SALE 11.11 ngày Thứ Tư 11/11 theo thể lệ chương trình, xem tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
+       "#TIVOSMART #TIVO #Sale1111 #BanChaiDien",
+       "Không bắt buộc: video là đồ họa từ ảnh sản phẩm thật, không có người, cảnh hay giọng nói giống thật do AI tạo",
+       "Bàn chải điện Magic B-26"
+      ],
+      [
+       "T04",
+       "Còn 1 ngày nữa là SALE 11.11! Bàn chải điện B-26 với 5 chế độ, rung 40.000 lần/phút. Mở deal 0h ngày Thứ Tư 11/11, ưu đãi theo thể lệ chương trình. Thêm vào giỏ ngay tại TIVO SMART!",
+       "#TIVOSMART #TIVO #Sale1111 #BanChaiDien",
+       "Không bắt buộc: video là đồ họa từ ảnh sản phẩm thật, không có người, cảnh hay giọng nói giống thật do AI tạo",
+       "Bàn chải điện Magic B-26"
+      ]
+     ],
+     "ghi_chu": "Kiểm tra lại quy định nhãn AI của TikTok lúc đăng."
+    }
+   ]
+  },
+  {
+   "ten": "Kiểm tra",
+   "khoi": [
+    {
+     "loai": "bang",
+     "tieu_de": "Kiểm tra trước khi đăng",
+     "cot": [
+      "Video",
+      "Mục kiểm tra",
+      "Kết quả",
+      "Ghi chú"
+     ],
+     "to_mau": {
+      "cot": "Kết quả",
+      "Đạt": "xanh",
+      "Cần xác nhận": "vang"
+     },
+     "dong": [
+      [
+       "T01",
+       "Tiêu đề 1–2 dòng, không tràn khung, dấu tiếng Việt đúng",
+       "Đạt",
+       "Đã xem ảnh kiểm tra 6 khung"
+      ],
+      [
+       "T01",
+       "Ưu đãi, ngày, giá đúng dữ liệu đã xác nhận",
+       "Cần xác nhận",
+       "Ưu đãi TikTok chưa xác nhận nên chỉ ghi giá niêm yết 990.000đ và dòng điều kiện mặc định"
+      ],
+      [
+       "T01",
+       "Ảnh sản phẩm không méo, không bị che",
+       "Đạt",
+       "Dùng ảnh thật đã tách nền, giữ đúng tỷ lệ"
+      ],
+      [
+       "T01",
+       "Nhãn cuối chỉ hiện sau giây 7.4",
+       "Đạt",
+       "Công cụ lật nhãn sau giây 7.4"
+      ],
+      [
+       "T01",
+       "Màu, font, logo giống các video cùng đợt",
+       "Cần xác nhận",
+       "Màu và font giống nhau; chưa có file logo nên đầu khung ghi chữ TIVO SMART"
+      ],
+      [
+       "T01",
+       "Không còn ô trống, không có @ trống",
+       "Đạt",
+       "Công cụ đã kiểm tra, username @_tivo.official_"
+      ],
+      [
+       "T01",
+       "Chữ và nút kêu gọi nằm trong vùng an toàn",
+       "Đạt",
+       "Không sát mép"
+      ],
+      [
+       "T01",
+       "Không có thông tin ngoài dữ liệu đã cung cấp",
+       "Đạt",
+       "Thông số lấy từ tài liệu mẫu video: 5 chế độ, rung 40.000 lần/phút"
+      ],
+      [
+       "T01",
+       "Định dạng 9:16, 1080x1920, 30fps, 9 giây",
+       "Đạt",
+       "Công cụ xác nhận khi xuất file"
+      ],
+      [
+       "T02",
+       "Tiêu đề 1–2 dòng, không tràn khung, dấu tiếng Việt đúng",
+       "Đạt",
+       "Đã xem ảnh kiểm tra 6 khung"
+      ],
+      [
+       "T02",
+       "Ưu đãi, ngày, giá đúng dữ liệu đã xác nhận",
+       "Cần xác nhận",
+       "Ưu đãi TikTok chưa xác nhận nên chỉ ghi giá niêm yết 990.000đ và dòng điều kiện mặc định"
+      ],
+      [
+       "T02",
+       "Ảnh sản phẩm không méo, không bị che",
+       "Đạt",
+       "Dùng ảnh thật đã tách nền, giữ đúng tỷ lệ"
+      ],
+      [
+       "T02",
+       "Nhãn cuối chỉ hiện sau giây 7.4",
+       "Đạt",
+       "Công cụ lật nhãn sau giây 7.4"
+      ],
+      [
+       "T02",
+       "Màu, font, logo giống các video cùng đợt",
+       "Cần xác nhận",
+       "Màu và font giống nhau; chưa có file logo nên đầu khung ghi chữ TIVO SMART"
+      ],
+      [
+       "T02",
+       "Không còn ô trống, không có @ trống",
+       "Đạt",
+       "Công cụ đã kiểm tra, username @_tivo.official_"
+      ],
+      [
+       "T02",
+       "Chữ và nút kêu gọi nằm trong vùng an toàn",
+       "Đạt",
+       "Không sát mép"
+      ],
+      [
+       "T02",
+       "Không có thông tin ngoài dữ liệu đã cung cấp",
+       "Đạt",
+       "Thông số lấy từ tài liệu mẫu video: 5 chế độ, rung 40.000 lần/phút"
+      ],
+      [
+       "T02",
+       "Định dạng 9:16, 1080x1920, 30fps, 9 giây",
+       "Đạt",
+       "Công cụ xác nhận khi xuất file"
+      ],
+      [
+       "T03",
+       "Tiêu đề 1–2 dòng, không tràn khung, dấu tiếng Việt đúng",
+       "Đạt",
+       "Đã xem ảnh kiểm tra 6 khung"
+      ],
+      [
+       "T03",
+       "Ưu đãi, ngày, giá đúng dữ liệu đã xác nhận",
+       "Cần xác nhận",
+       "Ưu đãi TikTok chưa xác nhận nên chỉ ghi giá niêm yết 990.000đ và dòng điều kiện mặc định"
+      ],
+      [
+       "T03",
+       "Ảnh sản phẩm không méo, không bị che",
+       "Đạt",
+       "Dùng ảnh thật đã tách nền, giữ đúng tỷ lệ"
+      ],
+      [
+       "T03",
+       "Nhãn cuối chỉ hiện sau giây 7.4",
+       "Đạt",
+       "Công cụ lật nhãn sau giây 7.4"
+      ],
+      [
+       "T03",
+       "Màu, font, logo giống các video cùng đợt",
+       "Cần xác nhận",
+       "Màu và font giống nhau; chưa có file logo nên đầu khung ghi chữ TIVO SMART"
+      ],
+      [
+       "T03",
+       "Không còn ô trống, không có @ trống",
+       "Đạt",
+       "Công cụ đã kiểm tra, username @_tivo.official_"
+      ],
+      [
+       "T03",
+       "Chữ và nút kêu gọi nằm trong vùng an toàn",
+       "Đạt",
+       "Không sát mép"
+      ],
+      [
+       "T03",
+       "Không có thông tin ngoài dữ liệu đã cung cấp",
+       "Đạt",
+       "Thông số lấy từ tài liệu mẫu video: Smartimer 2 phút, pin 1.200mAh khoảng 30 ngày, IPX7"
+      ],
+      [
+       "T03",
+       "Định dạng 9:16, 1080x1920, 30fps, 9 giây",
+       "Đạt",
+       "Công cụ xác nhận khi xuất file"
+      ],
+      [
+       "T04",
+       "Tiêu đề 1–2 dòng, không tràn khung, dấu tiếng Việt đúng",
+       "Đạt",
+       "Đã xem ảnh kiểm tra 6 khung"
+      ],
+      [
+       "T04",
+       "Ưu đãi, ngày, giá đúng dữ liệu đã xác nhận",
+       "Cần xác nhận",
+       "Ưu đãi TikTok chưa xác nhận nên chỉ ghi giá niêm yết 990.000đ và dòng điều kiện mặc định"
+      ],
+      [
+       "T04",
+       "Ảnh sản phẩm không méo, không bị che",
+       "Đạt",
+       "Dùng ảnh thật đã tách nền, giữ đúng tỷ lệ"
+      ],
+      [
+       "T04",
+       "Nhãn cuối chỉ hiện sau giây 7.4",
+       "Đạt",
+       "Nhãn THÊM VÀO GIỎ lật sau giây 7.4"
+      ],
+      [
+       "T04",
+       "Màu, font, logo giống các video cùng đợt",
+       "Cần xác nhận",
+       "Màu và font giống nhau; chưa có file logo nên đầu khung ghi chữ TIVO SMART"
+      ],
+      [
+       "T04",
+       "Không còn ô trống, không có @ trống",
+       "Đạt",
+       "Công cụ đã kiểm tra, username @_tivo.official_"
+      ],
+      [
+       "T04",
+       "Chữ và nút kêu gọi nằm trong vùng an toàn",
+       "Đạt",
+       "Không sát mép"
+      ],
+      [
+       "T04",
+       "Không có thông tin ngoài dữ liệu đã cung cấp",
+       "Đạt",
+       "Không ghi số lượng có hạn vì file chốt sale chưa có số lượng dành cho TikTok"
+      ],
+      [
+       "T04",
+       "Định dạng 9:16, 1080x1920, 30fps, 9 giây",
+       "Đạt",
+       "Công cụ xác nhận khi xuất file"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ten": "Thông số dựng",
+   "khoi": [
+    {
+     "loai": "bang",
+     "tieu_de": "Thông số dựng",
+     "cot": [
+      "Hạng mục",
+      "Giá trị"
+     ],
+     "dong": [
+      [
+       "Màu nền",
+       "Đỏ chuyển từ #E53935 sang #B71C1C"
+      ],
+      [
+       "Màu tối (khung chữ)",
+       "#7F1717 và #641313"
+      ],
+      [
+       "Màu chữ",
+       "Trắng #FFFFFF, kem #FFF3E0"
+      ],
+      [
+       "Màu nhấn (giá, nhãn, tem)",
+       "Vàng #FFC857"
+      ],
+      [
+       "Font tiêu đề",
+       "Inter Black, in hoa, nén ngang 84%"
+      ],
+      [
+       "Họa tiết phụ",
+       "Vân ngang mảnh, đốm sáng, ngôi sao lấp lánh; chưa có linh vật"
+      ],
+      [
+       "Định dạng",
+       "Video dọc 1080x1920, 30 hình/giây, 9 giây, không có tiếng"
+      ],
+      [
+       "Nhạc gợi ý",
+       "Nhạc sôi động, nhịp nhanh, chọn trong thư viện nhạc thương mại của TikTok"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ten": "Cách đăng",
+   "khoi": [
+    {
+     "loai": "doan",
+     "tieu_de": "Các bước đăng một video",
+     "dong": [
+      "1. Mở thư mục video 11-11 trên máy, chọn file đúng tên (ví dụ T01.mp4).",
+      "2. Mở TikTok, bấm dấu cộng, tải file video lên.",
+      "3. Chọn nhạc trong thư viện nhạc thương mại của TikTok (video để im lặng).",
+      "4. Dán caption và hashtag ở sheet Caption.",
+      "5. Gắn Bàn chải điện Magic B-26 vào giỏ hàng.",
+      "6. Nhãn nội dung AI: không bắt buộc với các video này (xem sheet Caption).",
+      "7. Đăng đúng giờ ở sheet Lịch đăng, hoặc hẹn giờ đăng."
+     ]
+    }
+   ]
+  },
+  {
+   "ten": "Cần xác nhận",
+   "khoi": [
+    {
+     "loai": "bang",
+     "tieu_de": "Những chỗ đang dùng mặc định",
+     "cot": [
+      "Nội dung",
+      "Đang dùng",
+      "Chủ shop cần làm"
+     ],
+     "dong": [
+      [
+       "Ưu đãi và giá ngày sale trên TikTok",
+       "Chỉ ghi giá niêm yết 990.000đ và XEM ƯU ĐÃI TẠI GIỎ HÀNG",
+       "Ghi Đã xác nhận trong file chốt sale; agent không tự đổi giá"
+      ],
+      [
+       "Nhãn cuối LƯU VOUCHER NGAY của T01",
+       "Giữ theo mẫu của shop",
+       "Nếu TikTok không có voucher cho 11.11 thì báo để đổi"
+      ],
+      [
+       "Số lượng dành cho TikTok",
+       "T04 ghi Mở deal · Ưu đãi theo thể lệ chương trình, không ghi số lượng có hạn",
+       "Điền số lượng trong file chốt sale"
+      ],
+      [
+       "File logo",
+       "Đầu video ghi chữ TIVO SMART",
+       "Gửi file logo nền trong suốt"
+      ],
+      [
+       "Tem CHÍNH HÃNG",
+       "Đang tắt",
+       "Xác nhận có giấy tờ hàng chính hãng thì bật"
+      ],
+      [
+       "Nhạc",
+       "Không gắn nhạc",
+       "Người đăng chọn nhạc thương mại trong TikTok"
+      ],
+      [
+       "Sản phẩm cho video Black Friday",
+       "Chỉ Bàn chải điện Magic đủ điều kiện (có link TikTok và đủ hàng)",
+       "Bổ sung link TikTok cho bình giữ nhiệt, Quạt sạc cầm tay mini; nhập thêm Tăm nước Magic, Quạt sạc để bàn Magic trước Thứ Năm 19/11"
+      ]
+     ]
+    },
+    {
+     "loai": "bang",
+     "tieu_de": "Thông tin còn thiếu",
+     "cot": [
+      "Thứ còn thiếu",
+      "Ảnh hưởng"
+     ],
+     "dong": [
+      [
+       "Xác nhận ưu đãi TikTok",
+       "Video chưa ghi được giá sau voucher"
+      ],
+      [
+       "Dữ liệu TikTok (bán hàng, video, LIVE)",
+       "Chưa biết video nào hiệu quả để điều chỉnh"
+      ],
+      [
+       "Lịch riêng cho T01–T04 trong kế hoạch",
+       "Đang dùng ngày đăng mặc định"
+      ]
+     ]
+    },
+    {
+     "loai": "doan",
+     "tieu_de": "Giả định",
+     "dong": [
+      "Giả định: ngày đăng T01–T04 theo lịch mặc định lúc 18:00, vì kế hoạch truyền thông chưa ghi lịch riêng cho 4 video này.",
+      "Giả định: T03 trễ lịch Thứ Hai 09/11 nên đề xuất đăng 12:00 Thứ Ba 10/11 (khung Flash Sale trưa), cách T04 lúc 18:00 vài tiếng."
+     ]
+    }
+   ]
+  }
+ ]
+}

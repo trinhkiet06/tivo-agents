@@ -1,0 +1,11 @@
+{
+  "out": "output/3-video/11-11/V1.mp4",
+  "shop": "TIVO Smart",
+  "canh_bia": 0,
+  "canh": [
+    {"kieu": "chu", "giay": 3, "tieu_de": "5 chế độ, bạn chọn gì?", "phu_de": "Một cây bàn chải điện Magic"},
+    {"kieu": "chu", "giay": 5, "tieu_de": "Bàn chải điện Magic", "danh_sach": ["Clean", "Whitening", "Sensitive", "Gumcare", "Polish"]},
+    {"kieu": "chu", "giay": 4, "tieu_de": "40.000 lần/phút", "phu_de": "Tần số rung cao"},
+    {"kieu": "ket", "giay": 3, "tieu_de": "Chờ săn sale 11.11", "phu_de": "Lưu video lại để không lỡ", "nut": "Xem ở giỏ hàng"}
+  ]
+}

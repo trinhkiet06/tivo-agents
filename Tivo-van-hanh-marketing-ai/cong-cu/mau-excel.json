@@ -1,0 +1,565 @@
+{
+  "_ghi_chu": "Mẫu JSON cho cong-cu/xuat-excel.py, chép từ kế hoạch Black Friday 2026. Đổi 'out' và nội dung khi dùng.",
+  "out": "output/1-ke-hoach/ke-hoach-black-friday.xlsx",
+  "tieu_de": "KẾ HOẠCH TRUYỀN THÔNG TIKTOK SHOP BLACK FRIDAY",
+  "ten_trang": "TIVO Kế hoạch TikTok",
+  "thong_tin": [
+    "Shop TIVO Smart trên TikTok  |  Ngày lập: Thứ Ba 10/11/2026  |  Trạng thái: Chờ duyệt",
+    "Chưa có số liệu bán hàng, quảng cáo, video hay LIVE nào trên TikTok, nên việc chọn sản phẩm và nội dung là ước đoán."
+  ],
+  "trang": [
+    {
+      "ten": "Tổng quan",
+      "khoi": [
+        {
+          "loai": "chi_so",
+          "muc": [
+            {
+              "nhan": "Ngày đỉnh",
+              "gia_tri": "Thứ Sáu 27/11",
+              "dang": "text",
+              "ghi_chu": "Đợt sale chạy 26/11 đến 27/11"
+            },
+            {
+              "nhan": "Số ngày còn lại",
+              "gia_tri": 17,
+              "dang": "so",
+              "ghi_chu": "Tính từ Thứ Ba 10/11"
+            },
+            {
+              "nhan": "Mục tiêu doanh số ngày 27/11",
+              "gia_tri": "Chưa có",
+              "dang": "text",
+              "ghi_chu": "Lịch sale nội bộ chưa có mục tiêu cho đợt này"
+            },
+            {
+              "nhan": "Ngân sách marketing cả đợt",
+              "gia_tri": 3000000,
+              "dang": "tien",
+              "ghi_chu": "Số giả định, chờ duyệt"
+            }
+          ]
+        },
+        {
+          "loai": "doan",
+          "tieu_de": "Tóm tắt nhanh",
+          "dong": [
+            "Đợt sale Black Friday chạy Thứ Năm 26/11 đến Thứ Sáu 27/11, ngày đỉnh dự kiến Thứ Sáu 27/11, còn 17 ngày.",
+            "Sản phẩm chủ lực cho cả chuỗi video: Bình giữ nhiệt Magic MC1200 (giá camp 499.000đ). Nhóm phụ: Bình giữ nhiệt Magic MC500, Bình giữ nhiệt Magic MC570, Quạt sạc cầm tay mini.",
+            "Mục tiêu doanh số chưa có trong lịch sale nội bộ. Ngân sách đề xuất 3.000.000đ, chờ duyệt.",
+            "4 video chính T01 đến T04 đăng lúc 18:00 các ngày 21/11, 23/11, 25/11, 26/11. Kế hoạch phải được duyệt và video sẵn sàng trước Thứ Sáu 20/11.",
+            "Sale Lương Về 24 – 25/11 diễn ra sát ngay trước, nên chuỗi video dùng chung cho cả hai dịp."
+          ]
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Việc cần làm",
+          "cot": [
+            "Việc cần làm",
+            "Người làm",
+            "Hạn",
+            "Mức độ"
+          ],
+          "to_mau": {
+            "cot": "Mức độ",
+            "Gấp": "do",
+            "Trong tuần": "vang",
+            "Khi có thể": "xam",
+            "Đã xong": "xanh"
+          },
+          "dong": [
+            [
+              "Mở Seller Center xem hạn đăng ký, điều kiện, khung giờ vàng của Black Friday",
+              "Chủ shop",
+              "Thứ Sáu 13/11",
+              "Gấp"
+            ],
+            [
+              "Xác nhận Bình giữ nhiệt Magic MC1200, MC500, MC570 và Quạt sạc cầm tay mini đã bán trên TikTok chưa, điền vào file chốt sale",
+              "Chủ shop",
+              "Thứ Sáu 13/11",
+              "Gấp"
+            ],
+            [
+              "Duyệt kế hoạch, sản phẩm chủ lực và ngân sách; cho số mục tiêu doanh số",
+              "Chủ shop",
+              "Thứ Sáu 13/11",
+              "Gấp"
+            ],
+            [
+              "Cập nhật tồn kho sau đợt 11.11",
+              "Vận hành",
+              "Thứ Hai 16/11",
+              "Trong tuần"
+            ],
+            [
+              "Chốt giá, voucher cho TikTok, đơn tối thiểu, ai chịu voucher, ngày giờ áp dụng; điền số lượng dành cho TikTok",
+              "Chủ shop",
+              "Thứ Hai 16/11",
+              "Trong tuần"
+            ],
+            [
+              "Xuất dữ liệu TikTok của đợt 11.11 cho agent",
+              "Marketing",
+              "Thứ Hai 16/11",
+              "Trong tuần"
+            ],
+            [
+              "Đăng ký chiến dịch Black Friday trước hạn trong Seller Center",
+              "Chủ shop",
+              "Trước hạn, dự kiến 17 – 20/11",
+              "Trong tuần"
+            ],
+            [
+              "Viết nội dung và làm xong 4 video T01 đến T04 (Bình giữ nhiệt Magic MC1200)",
+              "Marketing",
+              "Thứ Năm 19/11",
+              "Trong tuần"
+            ],
+            [
+              "Cài voucher và giá ngày sale đúng giờ áp dụng",
+              "Chủ shop",
+              "Thứ Ba 24/11",
+              "Khi có thể"
+            ]
+          ]
+        },
+        {
+          "loai": "doan",
+          "tieu_de": "Cảnh báo",
+          "dong": [
+            "Tồn kho đang dùng là số trước đợt 11.11; nếu 11.11 bán tốt thì Bàn chải điện Magic và Bình giữ nhiệt Magic MC870 có thể sắp hết hàng; Vận hành cập nhật tồn kho trước 16/11.",
+            "Danh mục chưa có link TikTok của Bình giữ nhiệt Magic MC1200; nếu chưa lên TikTok thì chuỗi video phải đổi chủ lực; chủ shop xác nhận trước 13/11.",
+            "Hạn đăng ký Black Friday chưa tìm thấy công bố; lỡ hạn thì sản phẩm không lên trang chiến dịch; chủ shop kiểm tra Seller Center trong tuần này.",
+            "Lương Về 24 – 25/11 và Black Friday 26 – 27/11 nối liền nhau; giá khác nhau giữa hai dịp dễ làm khách hiểu nhầm; chủ shop chốt một mức giá cho 24 – 27/11 hoặc ghi rõ ngày áp dụng."
+          ]
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Thông tin đợt sale",
+          "cot": [
+            "Thông tin",
+            "Nội dung",
+            "Trạng thái"
+          ],
+          "dong": [
+            [
+              "Ngày chạy",
+              "Thứ Năm 26/11 đến Thứ Sáu 27/11/2026",
+              "Chính thức (Học viện TikTok Shop)"
+            ],
+            [
+              "Ngày đỉnh",
+              "Thứ Sáu 27/11",
+              "Dự kiến, theo thông lệ Black Friday"
+            ],
+            [
+              "Khung giờ ngày đỉnh",
+              "00:00 – 02:00, 12:00, 20:00 – 22:00; LIVE 19:00 – 23:00",
+              "Dự kiến, theo lịch sale nội bộ"
+            ],
+            [
+              "Hạn đăng ký, điều kiện",
+              "Chưa tìm thấy công bố; nên đăng ký trước đỉnh 7 – 10 ngày (17 – 20/11)",
+              "Dự kiến"
+            ],
+            [
+              "Hashtag",
+              "Chưa tìm thấy công bố",
+              ""
+            ],
+            [
+              "Đối chiếu lịch sale nội bộ",
+              "Ghi 26 – 27/11, khớp nguồn chính thức",
+              "Không lệch"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Lịch đăng",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Lịch đăng video và LIVE từ 20/11 đến 30/11",
+          "cot": [
+            "Ngày",
+            "Giờ",
+            "Video",
+            "Sản phẩm",
+            "Thông điệp",
+            "Trạng thái"
+          ],
+          "to_mau": {
+            "cot": "Trạng thái",
+            "Gấp": "do",
+            "Hạn chót": "vang"
+          },
+          "dong": [
+            [
+              "Thứ Sáu 20/11",
+              "",
+              "",
+              "",
+              "Kế hoạch đã duyệt, 4 video sẵn sàng",
+              "Hạn chót"
+            ],
+            [
+              "Thứ Bảy 21/11",
+              "18:00",
+              "T01 teaser",
+              "Bình giữ nhiệt Magic MC1200",
+              "Black Friday Thứ Sáu 27/11 sắp đến",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Hai 23/11",
+              "18:00",
+              "T02 ưu đãi",
+              "Bình giữ nhiệt Magic MC1200",
+              "Còn 499.000đ, áp dụng ngày 27/11",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Ba 24/11",
+              "20:00 – 21:00",
+              "LIVE",
+              "Bình giữ nhiệt Magic MC1200, MC500, MC570, Quạt sạc cầm tay mini",
+              "Lương về, nhắc lưu voucher",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Tư 25/11",
+              "18:00",
+              "T03 sản phẩm chủ lực",
+              "Bình giữ nhiệt Magic MC1200",
+              "Bình 1200ml cho cả ngày làm việc",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Năm 26/11",
+              "18:00",
+              "T04 đếm ngược",
+              "Bình giữ nhiệt Magic MC1200",
+              "Còn 6 tiếng đến giá Black Friday",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Năm 26/11",
+              "20:00 – 21:00",
+              "LIVE",
+              "Sản phẩm đẩy mạnh",
+              "Nhắc lưu voucher, đặt lịch 0h",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 27/11",
+              "00:00",
+              "Đăng lại T02, LIVE đến 01:00",
+              "Bình giữ nhiệt Magic MC1200",
+              "0h rồi, giá Black Friday đã mở",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 27/11",
+              "12:00",
+              "Đăng lại T03",
+              "Bình giữ nhiệt Magic MC1200",
+              "Giữa trưa chốt bình",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Sáu 27/11",
+              "20:00 – 22:00",
+              "LIVE chính",
+              "Sản phẩm đẩy mạnh",
+              "Chốt đơn ngày đỉnh",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Bảy 28/11",
+              "18:00",
+              "V1",
+              "Bình giữ nhiệt Magic MC1200",
+              "Cảm ơn khách đã ủng hộ",
+              "Chưa làm"
+            ],
+            [
+              "Thứ Hai 30/11",
+              "18:00",
+              "V2",
+              "Bình giữ nhiệt Magic MC500, MC570",
+              "Cách vệ sinh bình; nhắc sản phẩm còn hàng",
+              "Chưa làm"
+            ]
+          ],
+          "ghi_chu": "Giả định: giá camp áp dụng từ 00:00 Thứ Sáu 27/11. Nếu áp dụng từ 24/11 hoặc 26/11 thì đổi câu chữ về giá trong T02 đến T04. Khi nêu giá phải ghi rõ thời điểm áp dụng. Cyber Monday 30/11 chưa có công bố cho Việt Nam nên V2 không nói là ngày sale. V1, V2 chuyển sang nhiệm vụ tạo content."
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Thông điệp theo giai đoạn",
+          "cot": [
+            "Giai đoạn",
+            "Thông điệp"
+          ],
+          "dong": [
+            [
+              "21 – 23/11, khởi động",
+              "Black Friday sắp đến, bình giữ nhiệt 1,2 lít có giá tốt cuối năm"
+            ],
+            [
+              "24 – 26/11, Lương Về và đếm ngược",
+              "Lương về rồi, lưu voucher, đặt lịch cho Thứ Sáu 27/11"
+            ],
+            [
+              "27/11, ngày đỉnh",
+              "Giá Black Friday đã mở, chỉ trong hôm nay"
+            ],
+            [
+              "28 – 30/11, sau sale",
+              "Cảm ơn khách, hướng dẫn dùng, nhắc sản phẩm còn hàng"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Sản phẩm",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Sản phẩm đẩy mạnh",
+          "cot": [
+            "Sản phẩm",
+            "Vai trò",
+            "Giá daily",
+            "Voucher",
+            "Giá camp (khách trả)",
+            "Tồn kho"
+          ],
+          "dang": [
+            "text",
+            "text",
+            "tien",
+            "tien",
+            "tien",
+            "text"
+          ],
+          "dong": [
+            [
+              "Bình giữ nhiệt Magic MC1200",
+              "Chủ lực",
+              609000,
+              110000,
+              499000,
+              "60, mức tối thiểu 15"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC500",
+              "Phụ",
+              459000,
+              100000,
+              359000,
+              "52, mức tối thiểu 20"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC570",
+              "Phụ",
+              359000,
+              70000,
+              289000,
+              "41, mức tối thiểu 15"
+            ],
+            [
+              "Quạt sạc cầm tay mini",
+              "Phụ",
+              459000,
+              100000,
+              359000,
+              "46, mức tối thiểu 15"
+            ],
+            [
+              "Bàn chải điện Magic",
+              "Có điều kiện",
+              509000,
+              90000,
+              419000,
+              "38, mức tối thiểu 20"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC870",
+              "Có điều kiện",
+              579000,
+              110000,
+              469000,
+              "35, mức tối thiểu 15"
+            ]
+          ],
+          "ghi_chu": "Giá camp là giá khách trả sau voucher (giá daily trừ voucher), lấy từ danh mục sản phẩm cập nhật 02/11/2026. Tồn kho là số trước đợt 11.11. Chọn MC1200 làm chủ lực vì còn nhiều hàng nhất và giảm 110.000đ; nếu chưa lên TikTok thì đổi sang Bàn chải điện Magic, với điều kiện tồn kho sau 11.11 còn trên 20. Bàn chải điện và MC870 chỉ đưa vào LIVE và quảng cáo nếu tồn kho sau 11.11 còn trên mức tối thiểu."
+        },
+        {
+          "loai": "bang",
+          "tieu_de": "Sản phẩm không đẩy",
+          "cot": [
+            "Sản phẩm",
+            "Tồn kho",
+            "Mức tối thiểu",
+            "Lý do"
+          ],
+          "dang": [
+            "text",
+            "so",
+            "so",
+            "text"
+          ],
+          "dong": [
+            [
+              "Tăm nước Magic",
+              14,
+              20,
+              "Sắp hết hàng"
+            ],
+            [
+              "Quạt sạc để bàn Magic",
+              9,
+              15,
+              "Sắp hết hàng"
+            ],
+            [
+              "Bình giữ nhiệt Magic MC650",
+              11,
+              15,
+              "Sắp hết hàng"
+            ],
+            [
+              "Bình giữ nhiệt Magic MPI480",
+              28,
+              10,
+              "Tên ghi 480 nhưng danh mục ghi 500ml, cần làm rõ trước khi làm nội dung"
+            ]
+          ],
+          "ghi_chu": "Sản phẩm sắp hết hàng không làm video, không chạy quảng cáo, không đưa vào LIVE."
+        }
+      ]
+    },
+    {
+      "ten": "Ngân sách",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Đề xuất phân bổ ngân sách 3.000.000đ (chờ duyệt)",
+          "cot": [
+            "Khoản chi",
+            "Số tiền",
+            "Căn cứ"
+          ],
+          "dang": [
+            "text",
+            "tien",
+            "text"
+          ],
+          "dong": [
+            [
+              "Quảng cáo GMV Max (quảng cáo tự tối ưu doanh số) ngày 27/11",
+              500000,
+              "Theo lịch sale nội bộ"
+            ],
+            [
+              "Quảng cáo khởi động 23 – 26/11, 200.000đ mỗi ngày",
+              800000,
+              "Đề xuất"
+            ],
+            [
+              "Quảng cáo sau sale 28 – 29/11, 150.000đ mỗi ngày",
+              300000,
+              "Đề xuất"
+            ],
+            [
+              "Đạo cụ quay và dự phòng",
+              400000,
+              "Đề xuất"
+            ],
+            [
+              "Chưa phân bổ",
+              1000000,
+              "Chờ chủ shop quyết định"
+            ],
+            [
+              "Tổng",
+              3000000,
+              "Số giả định trong lịch sale nội bộ"
+            ]
+          ],
+          "ghi_chu": "Chưa gồm voucher, phí sàn và hoa hồng tiếp thị liên kết. Mỗi Bình giữ nhiệt Magic MC1200 bán bằng voucher tốn 110.000đ tiền voucher. Chưa có mục tiêu doanh số nên chưa tính được số lượng cần bán."
+        }
+      ]
+    },
+    {
+      "ten": "Thông tin còn thiếu",
+      "khoi": [
+        {
+          "loai": "bang",
+          "tieu_de": "Thông tin còn thiếu",
+          "cot": [
+            "Còn thiếu",
+            "Ảnh hưởng",
+            "Giả định đang dùng"
+          ],
+          "dong": [
+            [
+              "Hạn đăng ký và điều kiện Black Friday",
+              "Không biết giá có đạt yêu cầu và còn kịp đăng ký không",
+              "Chạy bằng giá và voucher của shop"
+            ],
+            [
+              "Mục tiêu doanh số Black Friday",
+              "Không tính được cần bán bao nhiêu sản phẩm",
+              "Để trống"
+            ],
+            [
+              "Tồn kho sau 11.11",
+              "Có thể hết hàng giữa ngày sale",
+              "Dùng số tồn kho trước 11.11"
+            ],
+            [
+              "Sản phẩm nào đang bán trên TikTok (file chốt sale còn trống)",
+              "Có thể phải đổi sản phẩm chủ lực",
+              "Bình giữ nhiệt và quạt cầm tay đã có trên TikTok"
+            ],
+            [
+              "Xác nhận giá, voucher cho TikTok; voucher flash sale 50.000đ có dùng không",
+              "Giá trong video có thể sai",
+              "Bảng giá 02/11 áp dụng cho TikTok từ 00:00 27/11"
+            ],
+            [
+              "Dữ liệu bán hàng, quảng cáo, video, LIVE trên TikTok",
+              "Chọn sản phẩm chỉ là ước đoán",
+              "Chọn theo tồn kho, giá, dễ quay"
+            ],
+            [
+              "Khung giờ vàng và hashtag chính thức",
+              "Giờ đăng có thể lệch",
+              "Khung giờ trong lịch sale nội bộ"
+            ],
+            [
+              "Dung tích đúng của Bình giữ nhiệt Magic MPI480",
+              "Chưa làm nội dung được",
+              "Không đẩy sản phẩm này"
+            ]
+          ]
+        },
+        {
+          "loai": "doan",
+          "tieu_de": "Giả định",
+          "dong": [
+            "Trước 1 tuần tính theo ngày đỉnh 27/11, tức hạn chót Thứ Sáu 20/11.",
+            "Ngày đỉnh 27/11 theo thông lệ Black Friday; lịch chính thức chỉ ghi ngày chạy 26 – 27/11.",
+            "Chọn Black Friday thay vì Lương Về 24 – 25/11 (gần hơn 2 ngày) vì quy trình ưu tiên ngày sale đặc biệt; chuỗi video vẫn phủ cả Lương Về.",
+            "Nguồn dữ liệu: data/lich-sale-va-ngan-sach.xlsx, data/san-pham.xlsx, data/ton-kho.xlsx, data/chot-sale.xlsx, data/tiktok/du-lieu-tiktok.xlsx, output/1-ke-hoach/lich-sale-tiktok.md (tra cứu lại 10/11/2026)."
+          ]
+        }
+      ]
+    }
+  ]
+}
