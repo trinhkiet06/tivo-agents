@@ -3,7 +3,7 @@
  "tieu_de": "LỊCH ĐĂNG VIDEO TIKTOK BLACK FRIDAY",
  "ten_trang": "TIVO Video TikTok",
  "thong_tin": [
-  "Shop TIVO Smart trên TikTok  |  Cập nhật: Thứ Năm 19/11/2026 (lần chạy 20:23)  |  Trạng thái: video tự tạo, chủ shop xem lại và tự bấm đăng",
+  "Shop TIVO Smart trên TikTok  |  Cập nhật: Thứ Bảy 21/11/2026 (lần chạy sáng)  |  Trạng thái: video tự tạo, chủ shop xem lại và tự bấm đăng",
   "Chuỗi 4 video T01–T04 cho Black Friday Thứ Sáu 27/11, dùng chung cho Sale Lương Về 24 – 25/11 theo kế hoạch truyền thông. Mỗi video liệt kê 10 sản phẩm."
  ],
  "trang": [
@@ -15,15 +15,15 @@
      "muc": [
       {
        "nhan": "Video đã xong",
-       "gia_tri": 1,
+       "gia_tri": 2,
        "dang": "so",
-       "ghi_chu": "T01 đã có trong bản nháp TikTok, chờ chủ shop bấm đăng"
+       "ghi_chu": "T01 đã trong bản nháp TikTok; T02 vừa làm, chờ lưu nháp"
       },
       {
        "nhan": "Video chưa đến ngày",
-       "gia_tri": 3,
+       "gia_tri": 2,
        "dang": "so",
-       "ghi_chu": "T02 đăng 18:00 Thứ Hai 23/11"
+       "ghi_chu": "T03 đăng 18:00 Thứ Tư 25/11"
       },
       {
        "nhan": "Video bị bỏ qua",
@@ -37,10 +37,10 @@
      "loai": "doan",
      "tieu_de": "Tóm tắt nhanh",
      "dong": [
-      "Lần chạy 20:23 Thứ Năm 19/11: không có video mới cần làm. Chỉ T01 có ngày đăng trong 3 ngày 19/11 – 21/11 và đã có file từ trước.",
-      "T01 Black Friday (báo trước đợt sale): 10 sản phẩm, 20 giây, có ảnh nền và nhạc miễn bản quyền, đăng 18:00 Thứ Bảy 21/11. Tình trạng: đã lưu vào bản nháp TikTok Studio của nick TIVO Smart lúc 2:31 Thứ Năm 19/11, chờ chủ shop bấm đăng.",
-      "Video gần nhất chưa làm: T02 ưu đãi, đăng 18:00 Thứ Hai 23/11, tác vụ sẽ tự làm từ Thứ Bảy 21/11. File chốt sale chưa có thay đổi nên T02 sẽ dùng mẫu ưu đãi chung và giá niêm yết.",
-      "Giá trên video là giá niêm yết vì giá Black Friday trên TikTok chưa được xác nhận trong file chốt sale.",
+      "Lần chạy Thứ Bảy 21/11: đã làm xong T02 Black Friday (video ưu đãi), 10 sản phẩm, 20 giây, có ảnh nền và nhạc Trap beat (miễn bản quyền), đăng 18:00 Thứ Hai 23/11.",
+      "T02 chưa vào bản nháp TikTok vì lần chạy này không có Chrome. Chủ shop nhắn: lưu nháp T02.",
+      "T01 (báo trước đợt sale) đã trong bản nháp TikTok từ Thứ Năm 19/11, cần bấm đăng trước 18:00 hôm nay Thứ Bảy 21/11.",
+      "Giá trên video vẫn là giá niêm yết vì file chốt sale chưa xác nhận giá Black Friday cho TikTok; T02 dùng mẫu ưu đãi chung (chưa có chương trình mua tặng).",
       "Hiện chỉ Bàn chải điện Magic gắn được giỏ hàng: 7 sản phẩm chưa có link TikTok, 3 sản phẩm sắp hết hàng."
      ]
     },
@@ -61,27 +61,33 @@
      },
      "dong": [
       [
-       "Mở TikTok Studio, vào Posts, chọn tab Drafts, xem bản nháp T01 rồi bấm Post (đăng ngay hoặc hẹn 18:00 Thứ Bảy 21/11)",
+       "Mở TikTok Studio > Posts > Drafts, xem bản nháp T01 rồi bấm Post (đăng ngay hoặc hẹn 18:00 hôm nay)",
        "Chủ shop",
        "Thứ Bảy 21/11, trước 18:00",
        "Gấp"
       ],
       [
+       "Nhắn: lưu nháp T02 để agent đưa T02 vào bản nháp TikTok (hoặc đăng tay theo sheet Cách đăng)",
+       "Chủ shop",
+       "Thứ Hai 23/11, trước 18:00",
+       "Gấp"
+      ],
+      [
        "Thêm link TikTok cho các bình giữ nhiệt và Quạt sạc cầm tay mini vào danh mục sản phẩm",
        "Chủ shop",
-       "Thứ Sáu 20/11 (trước khi đăng T01 18:00 Thứ Bảy 21/11)",
+       "Chủ Nhật 22/11 (trước khi đăng T02)",
        "Gấp"
       ],
       [
-       "Cập nhật tồn kho sau 11.11 (đã quá hạn Thứ Ba 17/11); nhập thêm Tăm nước Magic, Quạt sạc để bàn Magic, Bình giữ nhiệt Magic MC650 nếu muốn gắn giỏ hàng",
+       "Cập nhật tồn kho sau 11.11; nhập thêm Tăm nước Magic, Quạt sạc để bàn Magic, Bình giữ nhiệt Magic MC650 nếu muốn gắn giỏ hàng",
        "Vận hành",
-       "Thứ Sáu 20/11",
+       "Chủ Nhật 22/11",
        "Gấp"
       ],
       [
-       "Xác nhận giá, voucher Black Friday cho TikTok trong file chốt sale để video T02 trở đi ghi giá sau voucher",
+       "Xác nhận giá, voucher Black Friday cho TikTok trong file chốt sale để T03, T04 ghi giá sau voucher",
        "Chủ shop",
-       "Thứ Sáu 20/11",
+       "Thứ Hai 23/11",
        "Trong tuần"
       ],
       [
@@ -115,7 +121,8 @@
       "Đã hẹn giờ đăng": "xanh",
       "Bị bỏ qua": "do",
       "Chưa đến ngày": "xam",
-      "Đã lưu nháp TikTok": "xanh"
+      "Đã lưu nháp TikTok": "xanh",
+      "Chờ lưu nháp": "vang"
      },
      "dong": [
       [
@@ -131,8 +138,8 @@
        "10 sản phẩm, 20 giây",
        "Thứ Hai 23/11, 18:00",
        "T02.mp4",
-       "Chưa đến ngày",
-       "Dùng mẫu ưu đãi chung vì chưa có chương trình mua tặng; tự làm từ Thứ Bảy 21/11"
+       "Chờ lưu nháp",
+       "Làm xong sáng Thứ Bảy 21/11; mẫu ưu đãi chung, giá niêm yết; nhạc Trap beat (CC0). Chưa lưu nháp vì lần chạy không có Chrome, nhắn: lưu nháp T02"
       ],
       [
        "T03 – Lý do nên mua",
@@ -160,7 +167,7 @@
    "khoi": [
     {
      "loai": "bang",
-     "tieu_de": "Kịch bản T01 (đã làm) và dự kiến T02–T04",
+     "tieu_de": "Kịch bản T01, T02 (đã làm) và dự kiến T03–T04",
      "cot": [
       "Video",
       "Thời gian",
@@ -264,29 +271,92 @@
        "T02",
        "0.0–1.5 giây",
        "Nhịp 1 – Mở",
-       "BLACK FRIDAY + BLACK FRIDAY / 10 mẫu Magic đang chờ giá tốt",
-       "Nền đen – vàng có vệt sáng chéo, logo đầu khung, chữ hiện từ mờ đến rõ trong khung vát góc"
+       "BLACK FRIDAY · 10 MẪU MAGIC / Bình giữ nhiệt, quạt sạc, tăm nước, bàn chải điện",
+       "Nền đen – vàng, ảnh nền đèn bokeh, vệt sáng chéo; logo chữ TIVO SMART; 3 bình giữ nhiệt hiện từ mờ đến rõ; nhạc vào ngay"
       ],
       [
        "T02",
        "1.5–3.0 giây",
        "Nhịp 2 – Tem",
        "BLACK FRIDAY / Ưu đãi theo thể lệ chương trình · tem 27.11",
-       "Tem hình thoi xoay vào, nảy nhẹ"
+       "Tem hình thoi vàng xoay vào, nảy nhẹ"
       ],
       [
        "T02",
-       "3.0–17.5 giây",
-       "10 khung sản phẩm",
-       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · tên + giá niêm yết · Nhãn: NGÀY SALE 27.11",
-       "Mỗi sản phẩm khoảng 1,45 giây, số thứ tự 1/10 đến 10/10, trượt dọc; dòng điều kiện chữ nhỏ"
+       "3,00–4,45 giây",
+       "Sản phẩm 1/10 – Bình giữ nhiệt Magic MC1200",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MC1200 · Giá niêm yết 790.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
       ],
       [
        "T02",
-       "17.5–20.0 giây",
+       "4,45–5,90 giây",
+       "Sản phẩm 2/10 – Bình giữ nhiệt Magic MC500",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MC500 · Giá niêm yết 690.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "5,90–7,35 giây",
+       "Sản phẩm 3/10 – Bình giữ nhiệt Magic MC570",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MC570 · Giá niêm yết 590.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "7,35–8,80 giây",
+       "Sản phẩm 4/10 – Quạt sạc cầm tay mini",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · QUẠT CẦM TAY A-014 · Giá niêm yết 690.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "8,80–10,25 giây",
+       "Sản phẩm 5/10 – Tăm nước Magic",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · TĂM NƯỚC B-02 PRO · Giá niêm yết 990.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "10,25–11,70 giây",
+       "Sản phẩm 6/10 – Bàn chải điện Magic",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÀN CHẢI ĐIỆN B-26 · Giá niêm yết 990.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "11,70–13,15 giây",
+       "Sản phẩm 7/10 – Quạt sạc để bàn Magic",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · QUẠT BÀN A-028 · Giá niêm yết 790.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "13,15–14,60 giây",
+       "Sản phẩm 8/10 – Bình giữ nhiệt Magic MC650",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MC650 · Giá niêm yết 790.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "14,60–16,05 giây",
+       "Sản phẩm 9/10 – Bình giữ nhiệt Magic MC870",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MC870 · Giá niêm yết 790.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "16,05–17,50 giây",
+       "Sản phẩm 10/10 – Bình giữ nhiệt Magic MPI480",
+       "XEM ƯU ĐÃI TẠI GIỎ HÀNG · BÌNH MPI480 · Giá niêm yết 790.000đ · Nhãn: NGÀY SALE 27.11",
+       "Ảnh sản phẩm thật, trượt dọc; dòng điều kiện chữ nhỏ; số thứ tự góc trên"
+      ],
+      [
+       "T02",
+       "17,5–20,0 giây",
        "Kêu gọi mua",
        "NHẤN MUA NGAY / Xem 10 sản phẩm tại TIVO SMART · Nhãn lật thành: MUA NGAY",
-       "Lưới ảnh nhỏ 10 sản phẩm, nhãn lật ở giây cuối"
+       "Lưới ảnh nhỏ 10 sản phẩm, nhãn lật ở giây cuối, nhạc tắt dần"
       ],
       [
        "T03",
@@ -345,7 +415,7 @@
        "Lưới ảnh nhỏ 10 sản phẩm, nhãn lật ở giây cuối"
       ]
      ],
-     "ghi_chu": "T01 đã điền đủ từng khung sản phẩm. T02–T04 là bản dự kiến, sẽ điền chi tiết khi làm. Giá trên khung là giá niêm yết cho đến khi chủ shop xác nhận giá Black Friday."
+     "ghi_chu": "T01, T02 đã điền đủ từng khung sản phẩm. T03–T04 là bản dự kiến, sẽ điền chi tiết khi làm. Giá trên khung là giá niêm yết cho đến khi chủ shop xác nhận giá Black Friday."
     }
    ]
   },
@@ -354,7 +424,7 @@
    "khoi": [
     {
      "loai": "bang",
-     "tieu_de": "Caption và hashtag (T01 dùng được ngay, T02–T04 bản nháp)",
+     "tieu_de": "Caption và hashtag (T01, T02 dùng được ngay, T03–T04 bản nháp)",
      "cot": [
       "Video",
       "Caption",
@@ -372,7 +442,7 @@
       ],
       [
        "T02",
-       "Đón Black Friday cùng 10 mẫu Magic tại TIVO SMART. Ưu đãi ngày Thứ Sáu 27/11 theo thể lệ chương trình, xem chi tiết tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
+       "Đón Black Friday cùng 10 mẫu Magic tại TIVO SMART: bình giữ nhiệt, quạt sạc, tăm nước, bàn chải điện. Ưu đãi ngày Thứ Sáu 27/11 theo thể lệ chương trình, xem chi tiết tại giỏ hàng. Xem sản phẩm tại TIVO SMART!",
        "#TIVOSMART #TIVO #BlackFriday #BinhGiuNhiet #QuatMini #TamNuoc #BanChaiDien",
        "Không bắt buộc: video là đồ họa từ ảnh sản phẩm thật (chỉ tách nền), không có người, cảnh hay giọng nói giống thật do AI tạo",
        "Bàn chải điện Magic"
@@ -481,7 +551,67 @@
        "Chưa rõ TikTok có voucher Black Friday không"
       ],
       [
-       "T02–T04",
+       "T02",
+       "Tiêu đề 1–2 dòng, không tràn khung, dấu tiếng Việt đúng",
+       "Đạt",
+       "Đã xem từng khung trong ảnh kiểm tra"
+      ],
+      [
+       "T02",
+       "Giá và ưu đãi đúng dữ liệu",
+       "Đạt",
+       "Giá niêm yết đúng từng sản phẩm; chưa ghi giá Black Friday vì chưa xác nhận"
+      ],
+      [
+       "T02",
+       "Ảnh sản phẩm không méo, không bị che",
+       "Đạt",
+       "10 khung sản phẩm và lưới cuối đủ 10 ảnh"
+      ],
+      [
+       "T02",
+       "Số thứ tự 1/10 đến 10/10 đúng",
+       "Đạt",
+       ""
+      ],
+      [
+       "T02",
+       "Nhãn cuối hiện ở cuối video",
+       "Đạt",
+       "MUA NGAY lật ở giây cuối"
+      ],
+      [
+       "T02",
+       "Màu, font, logo giống chuỗi Black Friday",
+       "Đạt",
+       "Cùng phong cách với T01; logo đang là chữ TIVO SMART"
+      ],
+      [
+       "T02",
+       "Không còn ô trống, không có @ trống",
+       "Đạt",
+       ""
+      ],
+      [
+       "T02",
+       "Chữ và nút mua nằm trong vùng an toàn",
+       "Đạt",
+       ""
+      ],
+      [
+       "T02",
+       "Không có thông tin ngoài dữ liệu",
+       "Đạt",
+       "Nhãn NGÀY SALE 27.11 thay cho TỪ NAY – HẾT vì chưa có ưu đãi xác nhận"
+      ],
+      [
+       "T02",
+       "Định dạng 9:16, 1080x1920, 30 hình/giây",
+       "Đạt",
+       "Dài 20 giây, có nhạc"
+      ],
+      [
+       "T03–T04",
        "Toàn bộ checklist",
        "Cần xác nhận",
        "Chưa làm video"
@@ -566,7 +696,15 @@
        "2020-03-30 Techno · Doctor_Dreamchip · CC0"
       ],
       [
-       "T02–T04 – Ảnh nền và nhạc",
+       "T02 – Ảnh nền",
+       "Bokeh Lights · Travel Photographer · CC0; Concert Show · Nainoa Shizuru · CC0; Still Items · WDnet Studio · CC0; Color Glitter · Vidsplay · CC0"
+      ],
+      [
+       "T02 – Nhạc",
+       "Trap beat · DaveJf · CC0"
+      ],
+      [
+       "T03–T04 – Ảnh nền và nhạc",
        "Công cụ tự chọn khi làm, mỗi video một bài khác nhau trong thư viện Black Friday"
       ]
      ]
@@ -580,9 +718,9 @@
      "loai": "doan",
      "tieu_de": "Cách duyệt và đăng",
      "dong": [
-      "1. Video T01 đã nằm trong bản nháp TikTok Studio của nick TIVO Smart (@_tivo.smart_). Chủ shop mở TikTok Studio trên máy tính, vào Posts, chọn tab Drafts, bấm sửa bản nháp, xem lại rồi bấm Post (đăng ngay hoặc hẹn 18:00 Thứ Bảy 21/11).",
-      "2. Video T02–T04 khi làm xong sẽ chờ chủ shop xem trên trang Claude. Muốn đưa vào bản nháp thì nhắn: đồng ý đăng T0x (hoặc lưu nháp T0x). Agent chỉ lưu nháp, không bao giờ tự bấm Post.",
-      "3. Chưa nhắn đồng ý thì video không được đưa lên TikTok."
+      "1. Video T01 đã nằm trong bản nháp TikTok Studio của nick chủ shop. Chủ shop mở TikTok Studio trên máy tính, vào Posts, chọn tab Drafts, bấm sửa bản nháp, xem lại rồi bấm Post (đăng ngay hoặc hẹn 18:00 Thứ Bảy 21/11).",
+      "2. Video T02 đã làm xong nhưng chưa vào bản nháp (lần chạy không có Chrome). Nhắn: lưu nháp T02 để agent lưu nháp, hoặc đăng tay theo hướng dẫn dưới.",
+      "3. Agent chỉ lưu nháp, không bao giờ tự bấm Post."
      ]
     },
     {
@@ -618,9 +756,14 @@
        "Vào TikTok Studio > Posts > Drafts, xem lại và bấm Post trước 18:00 Thứ Bảy 21/11"
       ],
       [
+       "Lưu nháp video T02 Black Friday",
+       "Đã làm xong, chờ lưu nháp",
+       "Nhắn: lưu nháp T02 trước 18:00 Thứ Hai 23/11"
+      ],
+      [
        "Link TikTok của 7 sản phẩm: Bình giữ nhiệt Magic MC1200, MC500, MC570, MC650, MC870, MPI480 và Quạt sạc cầm tay mini",
        "Vẫn hiện trong video nhưng không gắn giỏ hàng",
-       "Thêm link TikTok vào danh mục sản phẩm trước Thứ Sáu 20/11"
+       "Thêm link TikTok vào danh mục sản phẩm trước Chủ Nhật 22/11"
       ],
       [
        "Tồn kho: Tăm nước Magic (14, mức tối thiểu 20), Quạt sạc để bàn Magic (9, mức 15), Bình giữ nhiệt Magic MC650 (11, mức 15)",
@@ -704,7 +847,8 @@
       "Giả định: ngày được tính theo giờ Việt Nam; lần chạy này rơi vào 0:10 Thứ Năm 19/11 nên T01 (đăng Thứ Bảy 21/11) nằm trong 2 ngày tới và được làm luôn.",
       "Giả định: thứ tự sản phẩm đưa 4 sản phẩm được đẩy mạnh trong kế hoạch lên đầu (MC1200, MC500, MC570, Quạt sạc cầm tay mini), còn lại theo tài liệu mẫu video.",
       "Giả định: lần chạy 2:20 Thứ Năm 19/11 (giờ Việt Nam) xét các ngày đăng 19/11 – 21/11; chỉ T01 nằm trong khoảng này và đã có file, nên không làm video mới.",
-      "Giả định: lần chạy 20:23 Thứ Năm 19/11 (giờ Việt Nam) xét các ngày đăng 19/11 – 21/11; chỉ T01 nằm trong khoảng này và đã có file, nên không làm video mới. File chốt sale, tồn kho và danh mục chưa thay đổi so với lần chạy trước."
+      "Giả định: lần chạy 20:23 Thứ Năm 19/11 (giờ Việt Nam) xét các ngày đăng 19/11 – 21/11; chỉ T01 nằm trong khoảng này và đã có file, nên không làm video mới. File chốt sale, tồn kho và danh mục chưa thay đổi so với lần chạy trước.",
+      "Giả định: lần chạy Thứ Bảy 21/11 xét các ngày đăng 21/11 – 23/11; T01 đã có file và đã lưu nháp nên chỉ làm T02. File chốt sale, tồn kho và danh mục chưa thay đổi nên T02 dùng mẫu ưu đãi chung, giá niêm yết, nhãn NGÀY SALE 27.11."
      ]
     }
    ]

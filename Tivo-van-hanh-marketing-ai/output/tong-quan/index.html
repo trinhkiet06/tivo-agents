@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TIVO Tổng quan TikTok</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lexend:wght@600;700;800&display=swap" rel="stylesheet"><style>
+:root{
+  /* Phòng điều hành bán hàng: dải đỏ thương hiệu ở trên, lưới thẻ thông tin bên dưới, đọc từ tổng quan tới chi tiết */
+  --brand:#C62828; --brand-ink:#8E1414; --gold:#E9A82B;
+  --ink:#1F1416; --muted:#6E5D60; --line:#EADFDF; --paper:#FFFFFF; --canvas:#F6F1F1;
+  --good:#1E7F4F; --good-bg:#E5F4EC; --warn:#9A6200; --warn-bg:#FFF3D6; --bad:#B3261E; --bad-bg:#FDE7E5; --mute-bg:#EFEAEA;
+  --display:"Lexend","Be Vietnam Pro",system-ui,sans-serif; --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --brand:#E0473F; --brand-ink:#FF8A80; --gold:#F2BC52; --ink:#F4ECEC; --muted:#B9A9AB; --line:#3A2C2E; --paper:#211819; --canvas:#171112;
+  --good:#6FD39F; --good-bg:#16352A; --warn:#F2BC52; --warn-bg:#3A2E12; --bad:#FF8A80; --bad-bg:#3E1A18; --mute-bg:#2C2223; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --brand:#E0473F; --brand-ink:#FF8A80; --gold:#F2BC52; --ink:#F4ECEC; --muted:#B9A9AB; --line:#3A2C2E; --paper:#211819; --canvas:#171112;
+  --good:#6FD39F; --good-bg:#16352A; --warn:#F2BC52; --warn-bg:#3A2E12; --bad:#FF8A80; --bad-bg:#3E1A18; --mute-bg:#2C2223; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--canvas);color:var(--ink);font:15px/1.55 var(--body)}
+a{color:var(--brand-ink)}
+a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.num{font-variant-numeric:tabular-nums}
+header.top{background:var(--paper);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+.mark{width:38px;height:38px;border-radius:10px;background:var(--brand);display:grid;place-items:center;flex:none}
+.brand-name{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:.02em}
+.brand-sub{color:var(--muted);font-size:13px}
+.top-links{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.top-links a{text-decoration:none;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;border:1px solid var(--line);color:var(--ink);background:var(--paper)}
+.top-links a:hover{border-color:var(--brand);color:var(--brand-ink)}
+.hero{background:linear-gradient(120deg,#7F1717 0%,#B71C1C 48%,#E53935 100%);color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;padding-top:30px;padding-bottom:30px;align-items:center}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;font-weight:600}
+.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:6px 0 10px;font-weight:800}
+.hero p{margin:0;max-width:60ch;opacity:.92}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25)}
+.chip b{color:var(--gold)}
+.count{justify-self:end;text-align:center;background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:18px 26px;min-width:220px}
+.count .big{font-family:var(--display);font-size:76px;font-weight:800;line-height:1;color:#FFD27A}
+.count .unit{font-size:14px;opacity:.9}
+.count .when{margin-top:8px;font-size:13px;opacity:.85}
+main .wrap{display:grid;gap:22px;padding-top:24px;padding-bottom:40px}
+.grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h2{font-size:18px;font-weight:700;display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
+.card h2 small{font-family:var(--body);font-weight:500;font-size:13px;color:var(--muted)}
+.todo{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.todo li{display:grid;grid-template-columns:6px 1fr auto;gap:12px;align-items:start;padding:12px 14px 12px 0;border-radius:12px;background:var(--canvas)}
+.todo .stripe{align-self:stretch;border-radius:6px 0 0 6px}
+.todo .who{font-size:12.5px;color:var(--muted);margin-top:2px}
+.pill{display:inline-block;white-space:nowrap;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px}
+.good{color:var(--good);background:var(--good-bg)} .warn{color:var(--warn);background:var(--warn-bg)}
+.bad{color:var(--bad);background:var(--bad-bg)} .mute{color:var(--muted);background:var(--mute-bg)}
+.stripe.good{background:var(--good)} .stripe.warn{background:var(--gold)} .stripe.bad{background:var(--bad)} .stripe.mute{background:var(--line)}
+.summary{margin:0;padding-left:18px;display:grid;gap:6px}
+.videos{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.vcard{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--canvas);display:flex;flex-direction:column}
+.vmedia{aspect-ratio:9/16;background:#120b0c;display:grid;place-items:center;position:relative}
+.vmedia video{width:100%;height:100%;object-fit:cover;display:block}
+.vmedia .wait{color:#c9b8ba;text-align:center;padding:16px;font-size:13px}
+.vmedia .wait strong{display:block;font-family:var(--display);font-size:34px;color:#fff;margin-bottom:6px}
+.vbody{padding:12px 14px;display:grid;gap:6px}
+.vbody h3{font-size:15px}
+.vbody .meta{font-size:13px;color:var(--muted)}
+details{font-size:13px}
+details summary{cursor:pointer;color:var(--brand-ink);font-weight:600}
+details p{margin:6px 0 0;white-space:pre-wrap}
+.copy{margin-top:6px;font:600 12px var(--body);padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.copy:hover{border-color:var(--brand)}
+.sales{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.sales li{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;padding:10px 12px;border-radius:12px;border:1px solid var(--line)}
+.sales li.now{border-color:var(--brand);box-shadow:inset 4px 0 0 var(--brand)}
+.date{text-align:center;line-height:1.1}
+.date .d{font-family:var(--display);font-size:24px;font-weight:800}
+.date .m{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.sales .t{font-weight:600}
+.sales .s{font-size:12.5px;color:var(--muted)}
+.left{font-size:13px;font-weight:700;color:var(--brand-ink);white-space:nowrap}
+.prods{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.prod{border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;gap:6px;background:var(--paper)}
+.prod .img{aspect-ratio:1;background:radial-gradient(circle at 50% 45%,var(--canvas) 0 60%,transparent 61%);display:grid;place-items:center}
+.prod img{max-width:78%;max-height:88%;object-fit:contain}
+.prod h3{font-size:14px;font-family:var(--body);font-weight:700}
+.price{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.price .now{font-family:var(--display);font-weight:800;color:var(--brand-ink);font-size:16px}
+.price .old{font-size:12px;color:var(--muted);text-decoration:line-through}
+.bar{height:6px;border-radius:6px;background:var(--mute-bg);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:6px}
+.stock{font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.need{width:100%;border-collapse:collapse;font-size:14px}
+.need th{text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+.need td{padding:10px 10px 10px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.need td:last-child{font-weight:600}
+.tablebox{overflow-x:auto}
+footer{color:var(--muted);font-size:12.5px;padding:0 0 30px}
+@media (max-width:980px){.prods{grid-template-columns:repeat(3,1fr)}.videos{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+@media (max-width:640px){.hero .wrap{grid-template-columns:1fr}.count{justify-self:start}.prods{grid-template-columns:repeat(2,1fr)}.videos{grid-template-columns:1fr 1fr}.top-links{margin-left:0}}
+@media (max-width:400px){.videos{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.vcard,.prod{transition:transform .15s ease}.vcard:hover,.prod:hover{transform:translateY(-2px)}}
+</style></head><body><header class="top"><div class="wrap"><div class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16v4h-6v11h-4V9H4z" fill="#fff"/></svg></div><div><div class="brand-name">TIVO SMART</div><div class="brand-sub">Bảng điều hành TikTok · cập nhật Thứ Bảy 21/11/2026</div></div><nav class="top-links" aria-label="Trang chi tiết"><a href="https://claude.ai/artifact/1q1B6zcpwwboFqxYjzGcp9">Kế hoạch chi tiết</a><a href="https://claude.ai/artifact/4Q3T46bsAkBjafcFQJKqHR">Lịch đăng video chi tiết</a></nav></div></header><section class="hero"><div class="wrap"><div><div class="eyebrow">Đợt sale đang chuẩn bị</div><h1>Black Friday</h1><p>Chạy Thứ Năm 26/11 – Thứ Sáu 27/11 · ngày cao điểm <strong>Thứ Sáu 27/11</strong> · khung giờ chính 0h–2h: mở màn, voucher toàn sàn + Flash Sale
+12h: Flash Sale trưa
+20h–22h: Flash Sale tối
+19h–23h: cao điểm LIVE</p><div class="chips"><span class="chip">Kế hoạch: <b>Chờ duyệt</b></span><span class="chip">Video: <b class="num">2/4</b> đã xong</span><span class="chip">Mức độ: <b>Lớn</b></span></div></div><div class="count" id="countdown" data-peak="2026-11-27"><div class="big num" id="cd-big">6</div><div class="unit" id="cd-unit">ngày nữa</div><div class="when">đến Thứ Sáu 27/11</div></div></div></section><main><div class="wrap"><div class="grid2"><section class="card" aria-labelledby="h-todo"><h2 id="h-todo">Việc cần làm <small>7 việc, gấp trước</small></h2><ul class="todo"><li><span class="stripe bad"></span><div><div>Mở TikTok Studio &gt; Posts &gt; Drafts, xem bản nháp T01 rồi bấm Post (đăng ngay hoặc hẹn 18:00 hôm nay)</div><div class="who">Chủ shop · hạn Thứ Bảy 21/11, trước 18:00</div></div><span class="pill bad">Gấp</span></li><li><span class="stripe bad"></span><div><div>Nhắn: lưu nháp T02 để agent đưa T02 vào bản nháp TikTok (hoặc đăng tay theo sheet Cách đăng)</div><div class="who">Chủ shop · hạn Thứ Hai 23/11, trước 18:00</div></div><span class="pill bad">Gấp</span></li><li><span class="stripe bad"></span><div><div>Thêm link TikTok cho các bình giữ nhiệt và Quạt sạc cầm tay mini vào danh mục sản phẩm</div><div class="who">Chủ shop · hạn Chủ Nhật 22/11 (trước khi đăng T02)</div></div><span class="pill bad">Gấp</span></li><li><span class="stripe bad"></span><div><div>Cập nhật tồn kho sau 11.11; nhập thêm Tăm nước Magic, Quạt sạc để bàn Magic, Bình giữ nhiệt Magic MC650 nếu muốn gắn giỏ hàng</div><div class="who">Vận hành · hạn Chủ Nhật 22/11</div></div><span class="pill bad">Gấp</span></li><li><span class="stripe warn"></span><div><div>Xác nhận giá, voucher Black Friday cho TikTok trong file chốt sale để T03, T04 ghi giá sau voucher</div><div class="who">Chủ shop · hạn Thứ Hai 23/11</div></div><span class="pill warn">Trong tuần</span></li><li><span class="stripe mute"></span><div><div>Xác nhận màu MC650, MC870, MPI480 và dung tích MPI480</div><div class="who">Chủ shop · hạn Khi có</div></div><span class="pill mute">Khi có thể</span></li><li><span class="stripe mute"></span><div><div>Gửi file logo TIVO SMART nền trong suốt</div><div class="who">Chủ shop · hạn Khi có</div></div><span class="pill mute">Khi có thể</span></li></ul></section><section class="card" aria-labelledby="h-sum"><h2 id="h-sum">Tóm tắt nhanh</h2><ul class="summary"><li>Lần chạy Thứ Bảy 21/11: đã làm xong T02 Black Friday (video ưu đãi), 10 sản phẩm, 20 giây, có ảnh nền và nhạc Trap beat (miễn bản quyền), đăng 18:00 Thứ Hai 23/11.</li><li>T02 chưa vào bản nháp TikTok vì lần chạy này không có Chrome. Chủ shop nhắn: lưu nháp T02.</li><li>T01 (báo trước đợt sale) đã trong bản nháp TikTok từ Thứ Năm 19/11, cần bấm đăng trước 18:00 hôm nay Thứ Bảy 21/11.</li><li>Giá trên video vẫn là giá niêm yết vì file chốt sale chưa xác nhận giá Black Friday cho TikTok; T02 dùng mẫu ưu đãi chung (chưa có chương trình mua tặng).</li><li>Hiện chỉ Bàn chải điện Magic gắn được giỏ hàng: 7 sản phẩm chưa có link TikTok, 3 sản phẩm sắp hết hàng.</li></ul><h2 style="margin-top:18px">Kế hoạch truyền thông</h2><ul class="summary"><li>Đợt sale Black Friday chạy Thứ Năm 26/11 đến Thứ Sáu 27/11, ngày đỉnh dự kiến Thứ Sáu 27/11, còn 17 ngày.</li><li>Sản phẩm chủ lực cho cả chuỗi video: Bình giữ nhiệt Magic MC1200 (giá camp 499.000đ). Nhóm phụ: Bình giữ nhiệt Magic MC500, Bình giữ nhiệt Magic MC570, Quạt sạc cầm tay mini.</li><li>Mục tiêu doanh số chưa có trong lịch sale nội bộ. Ngân sách đề xuất 3.000.000đ, chờ duyệt.</li></ul></section></div><section class="card" aria-labelledby="h-vid"><h2 id="h-vid">Chuỗi video Black Friday <small>bấm video để xem, nhạc đã có sẵn</small></h2><div class="videos"><article class="vcard"><div class="vmedia"><video controls preload="none" playsinline poster="video/T01-anh-bia.jpg" aria-label="T01 – Báo trước đợt sale"><source src="video/T01.mp4" type="video/mp4"></video></div><div class="vbody"><h3>T01 – Báo trước đợt sale</h3><div class="meta">Thứ Bảy 21/11, 18:00 · 10 sản phẩm, 20 giây</div><div><span class="pill good">Đã lưu nháp TikTok</span></div><details><summary>Caption và hashtag</summary><p id="cap-0">Black Friday sắp đến! 10 mẫu Magic đang chờ giá tốt: bình giữ nhiệt, quạt sạc, tăm nước, bàn chải điện. Khung giờ vàng 0h Thứ Sáu 27/11, nhớ đặt lịch nhé. Xem sản phẩm tại TIVO SMART!
+#TIVOSMART #TIVO #BlackFriday #BinhGiuNhiet #QuatMini #TamNuoc #BanChaiDien</p><button class="copy" type="button" data-target="cap-0">Chép caption</button></details></div></article><article class="vcard"><div class="vmedia"><video controls preload="none" playsinline poster="video/T02-anh-bia.jpg" aria-label="T02 – Video ưu đãi"><source src="video/T02.mp4" type="video/mp4"></video></div><div class="vbody"><h3>T02 – Video ưu đãi</h3><div class="meta">Thứ Hai 23/11, 18:00 · 10 sản phẩm, 20 giây</div><div><span class="pill warn">Chờ lưu nháp</span></div><details><summary>Caption và hashtag</summary><p id="cap-1">Đón Black Friday cùng 10 mẫu Magic tại TIVO SMART: bình giữ nhiệt, quạt sạc, tăm nước, bàn chải điện. Ưu đãi ngày Thứ Sáu 27/11 theo thể lệ chương trình, xem chi tiết tại giỏ hàng. Xem sản phẩm tại TIVO SMART!
+#TIVOSMART #TIVO #BlackFriday #BinhGiuNhiet #QuatMini #TamNuoc #BanChaiDien</p><button class="copy" type="button" data-target="cap-1">Chép caption</button></details></div></article><article class="vcard"><div class="vmedia"><div class="wait"><strong>T03</strong>Chưa làm<br>Trùng ngày Sale Lương Về 25/11; tự làm từ Thứ Hai 23/11</div></div><div class="vbody"><h3>T03 – Lý do nên mua</h3><div class="meta">Thứ Tư 25/11, 18:00 · 10 sản phẩm, 20 giây</div><div><span class="pill mute">Chưa đến ngày</span></div></div></article><article class="vcard"><div class="vmedia"><div class="wait"><strong>T04</strong>Chưa làm<br>Còn 1 ngày đến Thứ Sáu 27/11; tự làm từ Thứ Ba 24/11</div></div><div class="vbody"><h3>T04 – Đếm ngược</h3><div class="meta">Thứ Năm 26/11, 18:00 · 10 sản phẩm, 20 giây</div><div><span class="pill mute">Chưa đến ngày</span></div></div></article></div></section><div class="grid2"><section class="card" aria-labelledby="h-cal"><h2 id="h-cal">Lịch sale sắp tới <small>theo lịch sale nội bộ</small></h2><ul class="sales"><li><div class="date"><div class="d num">25</div><div class="m">Th11</div></div><div><div class="t">Sale Lương Về 11</div><div class="s">Thứ Tư · chạy 24/11 – 25/11 · Vừa</div></div><div class="left num" data-left="2026-11-25"></div></li><li class="now"><div class="date"><div class="d num">27</div><div class="m">Th11</div></div><div><div class="t">Black Friday</div><div class="s">Thứ Sáu · chạy 26/11 – 27/11 · Lớn</div></div><div class="left num" data-left="2026-11-27"></div></li><li><div class="date"><div class="d num">30</div><div class="m">Th11</div></div><div><div class="t">Cyber Monday</div><div class="s">Thứ Hai · chạy 30/11 – 30/11 · Vừa</div></div><div class="left num" data-left="2026-11-30"></div></li><li><div class="date"><div class="d num">12</div><div class="m">Th12</div></div><div><div class="t">12.12 Mega Sale (Sale cuối năm)</div><div class="s">Thứ Bảy · chạy 03/12 – 15/12 · Rất lớn</div></div><div class="left num" data-left="2026-12-12"></div></li><li><div class="date"><div class="d num">15</div><div class="m">Th12</div></div><div><div class="t">Sale Giữa Tháng 12</div><div class="s">Thứ Ba · chạy 14/12 – 15/12 · Vừa</div></div><div class="left num" data-left="2026-12-15"></div></li><li><div class="date"><div class="d num">25</div><div class="m">Th12</div></div><div><div class="t">Sale Lương Về + Giáng Sinh</div><div class="s">Thứ Sáu · chạy 24/12 – 25/12 · Vừa</div></div><div class="left num" data-left="2026-12-25"></div></li></ul></section><section class="card" aria-labelledby="h-need"><h2 id="h-need">Cần chủ shop xác nhận <small>13 mục</small></h2><div class="tablebox"><table class="need"><thead><tr><th scope="col">Nội dung</th><th scope="col">Đang dùng</th><th scope="col">Cần làm</th></tr></thead><tbody><tr><td>Đăng video T01 Black Friday</td><td>Đã có trong bản nháp TikTok, chưa đăng</td><td>Vào TikTok Studio &gt; Posts &gt; Drafts, xem lại và bấm Post trước 18:00 Thứ Bảy 21/11</td></tr><tr><td>Lưu nháp video T02 Black Friday</td><td>Đã làm xong, chờ lưu nháp</td><td>Nhắn: lưu nháp T02 trước 18:00 Thứ Hai 23/11</td></tr><tr><td>Link TikTok của 7 sản phẩm: Bình giữ nhiệt Magic MC1200, MC500, MC570, MC650, MC870, MPI480 và Quạt sạc cầm tay mini</td><td>Vẫn hiện trong video nhưng không gắn giỏ hàng</td><td>Thêm link TikTok vào danh mục sản phẩm trước Chủ Nhật 22/11</td></tr><tr><td>Tồn kho: Tăm nước Magic (14, mức tối thiểu 20), Quạt sạc để bàn Magic (9, mức 15), Bình giữ nhiệt Magic MC650 (11, mức 15)</td><td>Sắp hết hàng: vẫn hiện trong video, không gắn giỏ hàng</td><td>Vận hành cập nhật tồn kho sau 11.11 hoặc nhập thêm hàng</td></tr><tr><td>Giá và ưu đãi Black Friday trên TikTok của từng sản phẩm</td><td>Video ghi giá niêm yết và XEM ƯU ĐÃI TẠI GIỎ HÀNG</td><td>Ghi Đã xác nhận trong file chốt sale, sheet Voucher; agent sẽ dùng giá camp (ví dụ MC1200 còn 499.000đ)</td></tr><tr><td>Voucher flash sale 50.000đ toàn shop có áp dụng cho TikTok không</td><td>Không đưa vào video</td><td>Xác nhận trong file chốt sale</td></tr><tr><td>Nhãn cuối LƯU VOUCHER NGAY của T01</td><td>Giữ theo mẫu của shop</td><td>Nếu TikTok không có voucher cho Black Friday thì báo để đổi</td></tr><tr><td>Số lượng dành cho TikTok</td><td>T04 ghi Mở deal · Ưu đãi theo thể lệ chương trình, không ghi số lượng có hạn</td><td>Điền số lượng trong file chốt sale, sheet Phân bổ kho</td></tr><tr><td>Màu của Bình giữ nhiệt Magic MC650, MC870, MPI480 và dung tích MPI480 (tên 480, danh mục ghi 500ml)</td><td>Video không nhắc màu và dung tích của 3 mẫu này</td><td>Xác nhận thông tin đúng</td></tr><tr><td>Độ dài video 10 sản phẩm</td><td>Công cụ rút mỗi sản phẩm còn khoảng 1,45 giây để video đúng 20 giây</td><td>Muốn mỗi sản phẩm hiện lâu hơn thì chọn bớt sản phẩm</td></tr><tr><td>File logo</td><td>Đầu video ghi chữ TIVO SMART</td><td>Gửi file logo nền trong suốt</td></tr><tr><td>Tem CHÍNH HÃNG</td><td>Đang tắt</td><td>Xác nhận có giấy tờ hàng chính hãng thì bật</td></tr><tr><td>Nhạc và ảnh nền</td><td>Công cụ tự chọn trong thư viện miễn bản quyền Black Friday (11 ảnh, 8 bài nhạc)</td><td>Không cần làm gì; muốn đổi bài thì báo</td></tr></tbody></table></div></section></div><section class="card" aria-labelledby="h-sp"><h2 id="h-sp">Sản phẩm trong video <small>10 mã · giá theo danh mục, tồn kho theo file tồn kho</small></h2><div class="prods"><article class="prod"><div class="img"><img src="sp/B-02PRO.png" alt="Tăm nước Magic" loading="lazy"></div><h3>Tăm nước Magic</h3><div class="price"><span class="now num">329.000đ</span><span class="old num">990.000đ</span></div><div class="bar"><i style="width:23%;background:var(--bad)"></i></div><div class="stock"><span class="num">Tồn 14</span><span>Sắp hết hàng</span></div><div class="tags"><span class="pill good">Có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/B-26.png" alt="Bàn chải điện Magic" loading="lazy"></div><h3>Bàn chải điện Magic</h3><div class="price"><span class="now num">419.000đ</span><span class="old num">990.000đ</span></div><div class="bar"><i style="width:63%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 38</span><span>Đủ hàng</span></div><div class="tags"><span class="pill good">Có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/A-028.png" alt="Quạt sạc để bàn Magic" loading="lazy"></div><h3>Quạt sạc để bàn Magic</h3><div class="price"><span class="now num">499.000đ</span><span class="old num">790.000đ</span></div><div class="bar"><i style="width:20%;background:var(--bad)"></i></div><div class="stock"><span class="num">Tồn 9</span><span>Sắp hết hàng</span></div><div class="tags"><span class="pill good">Có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/A-014.png" alt="Quạt sạc cầm tay mini" loading="lazy"></div><h3>Quạt sạc cầm tay mini</h3><div class="price"><span class="now num">359.000đ</span><span class="old num">690.000đ</span></div><div class="bar"><i style="width:100%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 46</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MC500.png" alt="Bình giữ nhiệt Magic MC500" loading="lazy"></div><h3>Bình giữ nhiệt Magic MC500</h3><div class="price"><span class="now num">359.000đ</span><span class="old num">690.000đ</span></div><div class="bar"><i style="width:86%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 52</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MC570.png" alt="Bình giữ nhiệt Magic MC570" loading="lazy"></div><h3>Bình giữ nhiệt Magic MC570</h3><div class="price"><span class="now num">289.000đ</span><span class="old num">590.000đ</span></div><div class="bar"><i style="width:91%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 41</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MC650.png" alt="Bình giữ nhiệt Magic MC650" loading="lazy"></div><h3>Bình giữ nhiệt Magic MC650</h3><div class="price"><span class="now num">509.000đ</span><span class="old num">790.000đ</span></div><div class="bar"><i style="width:24%;background:var(--bad)"></i></div><div class="stock"><span class="num">Tồn 11</span><span>Sắp hết hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MC870.png" alt="Bình giữ nhiệt Magic MC870" loading="lazy"></div><h3>Bình giữ nhiệt Magic MC870</h3><div class="price"><span class="now num">469.000đ</span><span class="old num">790.000đ</span></div><div class="bar"><i style="width:77%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 35</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MC1200.png" alt="Bình giữ nhiệt Magic MC1200" loading="lazy"></div><h3>Bình giữ nhiệt Magic MC1200</h3><div class="price"><span class="now num">499.000đ</span><span class="old num">790.000đ</span></div><div class="bar"><i style="width:100%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 60</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article><article class="prod"><div class="img"><img src="sp/MPI480.png" alt="Bình giữ nhiệt Magic MPI480" loading="lazy"></div><h3>Bình giữ nhiệt Magic MPI480</h3><div class="price"><span class="now num">489.000đ</span><span class="old num">790.000đ</span></div><div class="bar"><i style="width:93%;background:var(--good)"></i></div><div class="stock"><span class="num">Tồn 28</span><span>Đủ hàng</span></div><div class="tags"><span class="pill warn">Chưa có link TikTok</span></div></article></div></section></div></main><footer><div class="wrap">Giá to là giá bán ngày sale theo danh mục sản phẩm, giá gạch là giá niêm yết. Video chỉ đưa giá sale khi file chốt sale ghi đã xác nhận. Trang tự cập nhật sau mỗi lần chạy tác vụ video.</div></footer><script>
+(function(){
+  var el=document.getElementById('countdown'); if(!el) return;
+  var peak=new Date(el.dataset.peak+'T00:00:00+07:00');
+  function upd(){
+    var now=new Date(); var vn=new Date(now.getTime()+ (now.getTimezoneOffset()+420)*60000);
+    var today=new Date(vn.getFullYear(),vn.getMonth(),vn.getDate());
+    var p=new Date(peak.getTime()+(now.getTimezoneOffset()+420)*60000); p=new Date(p.getFullYear(),p.getMonth(),p.getDate());
+    var d=Math.round((p-today)/86400000);
+    var big=document.getElementById('cd-big'), unit=document.getElementById('cd-unit');
+    if(d>0){big.textContent=d; unit.textContent='ngày nữa';}
+    else if(d===0){big.textContent='Hôm nay'; big.style.fontSize='44px'; unit.textContent='là ngày cao điểm';}
+    else {big.textContent='Đã qua'; big.style.fontSize='44px'; unit.textContent='đợt sale đã kết thúc';}
+  }
+  upd();
+  document.querySelectorAll('[data-left]').forEach(function(n){
+    var t=new Date(n.dataset.left+'T00:00:00'); var now=new Date(); var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+    var d=Math.round((t-today)/86400000); n.textContent = d>0 ? 'còn '+d+' ngày' : (d===0?'hôm nay':'');
+  });
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var txt=document.getElementById(b.dataset.target).textContent;
+      if(navigator.clipboard){navigator.clipboard.writeText(txt).then(function(){b.textContent='Đã chép';setTimeout(function(){b.textContent='Chép caption'},1600)},function(){b.textContent='Không chép được, hãy bôi đen để chép'})}
+    });
+  });
+})();
+</script></body></html>
